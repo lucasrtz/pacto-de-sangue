@@ -1,0 +1,310 @@
+<title>Pacto de Sangue · Matchups</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Grenze:wght@600;700;800&family=Barlow:wght@400;500;600&family=Barlow+Condensed:wght@500;600;700&display=swap">
+<style>
+/* Layout: tela de seleção de campeões — grade de inimigos à esquerda, guia do confronto fixo à direita (empilha no celular) */
+:root{
+  --bg:#f4efee; --surface:#fffafa; --surface-2:#ece3e2; --line:#d8cbca;
+  --fg:#241519; --muted:#6c5a5d; --accent:#a5162c; --accent-soft:#f3d9dc; --gold:#8a6a22;
+  --t1:#2f7a57; --t2:#5c8a2e; --t3:#a57a12; --t4:#c0561b; --t5:#a5162c;
+  --display:"Grenze",Georgia,serif; --body:"Barlow",system-ui,sans-serif; --label:"Barlow Condensed","Arial Narrow",sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#130c0e; --surface:#1d1316; --surface-2:#271a1e; --line:#3a282d;
+  --fg:#f1e6e2; --muted:#b09a9c; --accent:#e0334c; --accent-soft:#3a1820; --gold:#d6b066;
+  --t1:#4fbf8a; --t2:#9cc653; --t3:#e3b43c; --t4:#ee8445; --t5:#ef4a61; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#130c0e; --surface:#1d1316; --surface-2:#271a1e; --line:#3a282d;
+  --fg:#f1e6e2; --muted:#b09a9c; --accent:#e0334c; --accent-soft:#3a1820; --gold:#d6b066;
+  --t1:#4fbf8a; --t2:#9cc653; --t3:#e3b43c; --t4:#ee8445; --t5:#ef4a61; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font:15px/1.5 var(--body);margin:0}
+.wrap{max-width:1240px;margin:0 auto;padding-inline:20px;padding-block:24px 48px}
+a{color:var(--accent)}
+button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+header.top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px 24px;margin-bottom:18px}
+.eyebrow{font:600 12px/1 var(--label);letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+h1{font:800 clamp(34px,6vw,58px)/.95 var(--display);margin:6px 0 0;letter-spacing:.01em;text-wrap:balance}
+h1 em{font-style:normal;color:var(--accent)}
+.tabs{display:flex;gap:4px;background:var(--surface-2);padding:4px;border-radius:999px}
+.tabs button{border:0;background:none;padding:7px 16px;border-radius:999px;font:600 14px var(--label);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.tabs button[aria-selected="true"]{background:var(--surface);color:var(--fg);box-shadow:0 1px 2px #0002}
+.controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:14px}
+.search{flex:1 1 220px;min-width:0;padding:10px 14px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--fg);font:inherit}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{border:1px solid var(--line);background:var(--surface);padding:6px 11px;border-radius:999px;font:600 13px var(--label);letter-spacing:.04em}
+.chip[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.row2{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;margin-bottom:16px}
+.tierfilter{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.tierfilter .lbl,.count{font:600 12px var(--label);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.tf{width:34px;height:30px;border-radius:8px;border:1px solid var(--line);background:var(--surface);font:700 14px var(--label)}
+.tf[aria-pressed="true"]{color:#fff;border-color:transparent}
+select{padding:7px 10px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--fg);font:600 13px var(--label)}
+.toggle{display:flex;gap:6px;align-items:center;font:600 13px var(--label);color:var(--muted)}
+.grid-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,440px);gap:22px;align-items:start}
+@media (max-width:900px){.grid-layout{grid-template-columns:1fr}}
+.roster{display:grid;grid-template-columns:repeat(auto-fill,minmax(104px,1fr));gap:8px}
+.tile{position:relative;border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:12px 8px 10px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:6px;transition:transform .12s,border-color .12s}
+.tile:hover{transform:translateY(-2px);border-color:var(--muted)}
+.tile[aria-current="true"]{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent) inset}
+.mono{width:48px;height:48px;border-radius:50%;display:grid;place-items:center;font:700 19px var(--display);color:#fff;background:var(--c)}
+.tile .nm{font:600 14px/1.1 var(--label);letter-spacing:.02em}
+.pips{display:flex;gap:3px}
+.pips i{width:7px;height:7px;border-radius:50%;background:var(--line)}
+.pips i.on{background:var(--c)}
+.tile .noguide{position:absolute;top:6px;right:7px;font:600 10px var(--label);color:var(--muted);letter-spacing:.06em}
+.empty{padding:28px;border:1px dashed var(--line);border-radius:12px;color:var(--muted);text-align:center}
+.panel{position:sticky;top:calc(env(safe-area-inset-top,0px) + 12px);background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:22px;min-width:0}
+.panel h2{font:800 40px/1 var(--display);margin:2px 0 8px}
+.tierbadge{display:inline-flex;align-items:center;gap:8px;padding:5px 12px;border-radius:999px;font:700 13px var(--label);letter-spacing:.06em;text-transform:uppercase;color:#fff;background:var(--c)}
+.cls{font:600 12px var(--label);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.tiernote{margin:12px 0 0;color:var(--fg)}
+.sec{margin-top:18px}
+.sec h3{font:700 13px var(--label);letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin:0 0 8px}
+.setup{display:grid;grid-template-columns:auto 1fr;gap:6px 12px;margin:0}
+.setup dt{font:600 13px var(--label);color:var(--muted);letter-spacing:.04em}
+.setup dd{margin:0;min-width:0}
+ul.tips{margin:0;padding-left:18px;display:grid;gap:7px}
+ul.tips li::marker{color:var(--accent)}
+.src{margin-top:18px;padding-top:12px;border-top:1px solid var(--line);font-size:13px;color:var(--muted);display:grid;gap:4px}
+.note{background:var(--accent-soft);border-radius:10px;padding:10px 12px;font-size:14px}
+.lockin{border:0;background:var(--accent);color:#fff;padding:9px 18px;border-radius:10px;font:700 14px var(--label);letter-spacing:.12em;text-transform:uppercase}
+.ghost{border:1px solid var(--line);background:var(--surface);padding:8px 14px;border-radius:10px;font:600 14px var(--label);letter-spacing:.06em}
+/* Fundamentos */
+.fund{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px;min-width:0}
+.card h3{font:700 24px/1.1 var(--display);margin:0 0 10px}
+.card dl{margin:0;display:grid;gap:10px}
+.card dt{font:700 14px var(--label);letter-spacing:.05em;text-transform:uppercase}
+.card dd{margin:2px 0 0;color:var(--fg)}
+.lede{max-width:68ch;color:var(--muted);margin:0 0 18px}
+.foot{margin-top:28px;font-size:13px;color:var(--muted);max-width:80ch}
+@media (prefers-reduced-motion:reduce){.tile{transition:none}}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div>
+      <div class="eyebrow">Vladimir mid · segundo o Guaxi</div>
+      <h1>Escolhe teu <em>inimigo</em></h1>
+    </div>
+    <div class="tabs" role="tablist">
+      <button role="tab" id="tab-m" aria-selected="true" data-view="m">Confrontos</button>
+      <button role="tab" id="tab-f" aria-selected="false" data-view="f">Fundamentos</button>
+    </div>
+  </header>
+
+  <section id="view-m">
+    <div class="controls">
+      <input class="search" id="q" type="search" placeholder="Buscar campeão…" aria-label="Buscar campeão">
+      <div class="chips" id="clsChips"></div>
+    </div>
+    <div class="row2">
+      <div class="tierfilter" id="tierFilter"><span class="lbl">Dificuldade</span></div>
+      <label class="toggle"><input type="checkbox" id="onlyGuide"> só com guia</label>
+      <select id="sort" aria-label="Ordenar">
+        <option value="az">A → Z</option>
+        <option value="hard">Mais difícil primeiro</option>
+        <option value="easy">Mais fácil primeiro</option>
+      </select>
+      <span class="count" id="count"></span>
+      <div style="display:flex;gap:8px">
+        <button class="ghost" id="rand">Aleatório</button>
+        <button class="lockin" id="lock">Lock in</button>
+      </div>
+    </div>
+    <div class="grid-layout">
+      <div id="roster" class="roster"></div>
+      <aside class="panel" id="panel" aria-live="polite"></aside>
+    </div>
+  </section>
+
+  <section id="view-f" hidden>
+    <p class="lede">Base que o Guaxi repete em quase todo confronto. O Vlad serve pra farmar, escalar e ganhar luta; a lane só precisa ser "consistente", não precisa ser vencida.</p>
+    <div class="fund">
+      <div class="card"><h3>Runas</h3><dl>
+        <div><dt>Avanço da Tempestade</dt><dd>A padrão dele hoje. Boa contra quem tem range e slow (Anivia, Ashe, magos de poke). Ativa aplicando 25% da vida máxima do alvo.</dd></div>
+        <div><dt>Conquistador</dt><dd>Serve em qualquer partida, early fraco e escala muito. Melhor quando a troca se estende (Galio, tanques, melee que rusha vida).</dd></div>
+        <div><dt>Toque Ígneo</dt><dd>Mais dano no começo. Contra assassinos e papéis: Qiyana, LeBlanc, Ahri, Zed, Talon, Katarina, Zoe.</dd></div>
+        <div><dt>Aery</dt><dd>Quando você vai dar muito auto (Sylas, Katarina, LeBlanc). Página: Manto de Nimbus, Transcendência, Chamuscar + Lenda: Aceleração, Até a Morte.</dd></div>
+        <div><dt>Secundárias</dt><dd>Chamuscar para pressão de kill no early; Tempestade Crescente para escalar.</dd></div>
+      </dl></div>
+      <div class="card"><h3>Itens</h3><dl>
+        <div><dt>Ápice da Tempestade</dt><dd>Spike cedo, com Toque Ígneo e contra papéis (Qiyana, Zed, LeBlanc).</dd></div>
+        <div><dt>Rocketbelt</dt><dd>Serve com todas as runas; contra muito range (Karma, Ezreal).</dd></div>
+        <div><dt>Ímpeto Cósmico / Criafendas</dt><dd>Com Conquistador. Ímpeto contra melee que gruda (Galio, Sylas); Criafendas contra tanques.</dd></div>
+        <div><dt>Rabadon</dt><dd>Core, de 2º ou 3º item.</dd></div>
+        <div><dt>Cajado do Vazio / Zhonya / Banshee</dt><dd>Vazio quando fazem RM; Zhonya contra full AD e pra proteger stacks de Mejai; Banshee contra 4+ APs.</dd></div>
+        <div><dt>Builds</dt><dd>Toque vs papel: Ápice → Rabadon → Vazio → Zhonya. Build 2: Rocketbelt → Rabadon → Vazio → Zhonya. Conquistador: Rocketbelt → Criafendas → Rabadon → Vazio → Zhonya.</dd></div>
+      </dl></div>
+      <div class="card"><h3>Feitiços e botas</h3><dl>
+        <div><dt>Flash + Ghost</dt><dd>Bom em todas as partidas, essencial contra muito range.</dd></div>
+        <div><dt>Flash + Ignite</dt><dd>Contra melee que vem pra cima: Zed, Qiyana, LeBlanc, Kassadin, Galio, Talon, Sylas.</dd></div>
+        <div><dt>Botas</dt><dd>Ionianas (CDR) contra range; Sapatos do Feiticeiro contra papel sem mobilidade; Botas da Rapidez ("a bota que pinica") pra entrar no range de mago.</dd></div>
+      </dl></div>
+      <div class="card"><h3>Hábitos de lane</h3><dl>
+        <div><dt>Nível 1</dt><dd>Saiba se a skill principal do inimigo tem CD curto, médio ou longo e troque quando ela estiver em CD. Forçar poção cedo é vantagem, porque o Vlad tem sustain.</dd></div>
+        <div><dt>A poça é tua vida</dt><dd>Sem poça contra quem tem engage, jogue recuado. Só use a poça embaixo da torre inimiga contra magos que não ameaçam (nunca contra Yasuo, Yone, Irelia).</dd></div>
+        <div><dt>Preparação, não reflexo</dt><dd>Saiba quando o inimigo tem ult e já esteja pronto pra poça ou flash.</dd></div>
+        <div><dt>Duas opções pro inimigo</dt><dd>Deixe ele low e puxe a wave: ou ele fica e farma com medo, ou dá B e perde minion.</dd></div>
+        <div><dt>Truque do Q</dt><dd>Entre na poça quando faltam 2s pro Q voltar e saia dela já soltando o Q.</dd></div>
+        <div><dt>Flash anotado</dt><dd>Anote o tempo do flash inimigo e jogue agressivo enquanto ele estiver fora.</dd></div>
+      </dl></div>
+    </div>
+  </section>
+
+  <p class="foot">Resumo feito a partir das legendas automáticas dos vídeos públicos do Guaxi (canais @guaxilol1 e @CanalGuaxi), da tier list de junho de 2026 e do "PDF do Vlad" que ele deixa na descrição. Legenda automática erra nomes e palavras, e vídeos antigos podem ter build de outro patch; na dúvida, abra o vídeo indicado em cada confronto.</p>
+</div>
+
+<script>
+const TIERS={1:"Ultra fácil",2:"Fácil",3:"Mediano",4:"Difícil",5:"Perde no mesmo nível"};
+const TCOL={1:"var(--t1)",2:"var(--t2)",3:"var(--t3)",4:"var(--t4)",5:"var(--t5)"};
+const CLASSES=["Mago","Assassino","Lutador","Atirador","Suporte"];
+const yt=id=>"https://www.youtube.com/watch?v="+id;
+// tier: tier list do Guaxi (jun/2026). tips: resumo das legendas dos vídeos.
+const DATA=[
+{n:"Syndra",c:"Mago",t:4,note:"Ela vence a matchup, mas ele desceu ela de 'perde' pra 'difícil'. Quase não aparece no elo alto.",
+ setup:{Runa:"Avanço da Tempestade (padrão contra range)",Feitiços:"Flash + Ghost",Build:"Rush de item de dano cedo; bota de velocidade pra entrar no range"},
+ tips:["Mesmo atrás, a Syndra continua batendo em você. A lane é dela, então farme e não aceite troca longa.","Ela vira alvo fácil quando você pega a primeira vantagem: no vídeo ele pega kill com o jungle no nível 1.","Guarde a poça para o stun do E (esfera empurrada) e para a ult; com as esferas no ar, a poça faz elas não acertarem.","Padrão dele contra mago de range: bota de velocidade cedo e 'pinicar' com Q só quando ela gastar a combinação de skills.","No curso tem duas aulas só de Syndra (counter e 'vantagem de kill'); vale ver as duas."],
+ src:[["SOLANDO PRO PLAYER LEVEL 1! VLAD VS SYNDRA (2024)","mdvyYCqGvtY"],["Tier list das matchups (2026)","vbiAtgBtaKs"]]},
+{n:"Ahri",c:"Mago",t:3,note:"Mediano.",setup:{Runa:"Avanço da Tempestade",Feitiços:"Flash + Ghost",Build:"1º back Lacre Sombrio (bota opcional)"},
+ tips:["O Avanço da Tempestade é o que te tira do engage dela.","Anote o tempo do flash dela e puna enquanto estiver fora.","Negue XP pra ela não pegar 6 antes de você.","Ahri costuma ir de Ignite: respeite o tempo da tua poça."],src:[["FARMEI O JOGO TODO… VLAD VS AHRI","DML9wdO4Tt0"]]},
+{n:"Akali",c:"Assassino",t:4,note:"Difícil. Ignite e rush de Ápice da Tempestade ajudam a vencer.",setup:{Runa:"Toque Ígneo",Feitiços:"Flash + Ignite",Build:"Ápice da Tempestade primeiro"},
+ tips:["Ela costuma começar de Escudo de Doran, que atrapalha o Toque.","O segredo é esperar ela gastar a sombra (W) antes de trocar.","Cuidado quando ela pega nível 6: no vídeo ele morre ali.","Use o Ignite cedo pra finalizar."],src:[["Aprenda como destruir Akali na lane","tKWWvsq5aCA"]]},
+{n:"Akshan",c:"Atirador",t:4,note:"Difícil: early muito forte e presença de mapa grande, mas não a ponto de te fazer perder muito CS.",tips:["Respeite o early e jogue pra escalar."],src:[["Tier list","vbiAtgBtaKs"]],thin:1},
+{n:"Anivia",c:"Mago",t:5,note:"Uma das piores. Dá outrange com auto e Q e obriga Botas da Rapidez.",setup:{Runa:"Aery (no vídeo) ou Avanço da Tempestade",Feitiços:"Flash + Ghost",Build:"Botas da Rapidez cedo"},
+ tips:["Não tem como chegar nela na lane: farme.","Jogue pro teu jungle ajudar a quebrar o ovo (passiva) cedo.","Contra Anivia o Avanço da Tempestade ajuda a correr do slow."],src:[["TOP 1 VLAD VS ANIVIA","j3iCmy1Rzzw"]]},
+{n:"Annie",c:"Mago",t:2,note:"Simples em geral; em alto nível fica mais difícil. Cuidado pra não tomar o stun.",setup:{Feitiços:"Flash + Ghost",Build:"Build simples, bota cedo"},
+ tips:["Troque logo depois que ela gastar o stun.","Force as poções cedo; ela não tem sustain.","Contra quem não tem TP, ligue o Ghost pra dar dano: ela dá B e perde a wave.","Fique na lane até o 6 ganhando no sustain; anote o flash dela."],src:[["BUILD FÁCIL… ANNIE MATCHUP","rkvvKDwO_SI"]]},
+{n:"Aurelion Sol",c:"Mago",t:1,note:"Ultra fácil: lane muito fraca. Só cuidado com o Q.",tips:["Farme e puna a lane fraca dele."],src:[["Tier list","vbiAtgBtaKs"]],thin:1},
+{n:"Aurora",c:"Mago",t:4,note:"Difícil. Sobreviva ao early e compre velocidade pra desviar do Q.",setup:{Runa:"Avanço da Tempestade + Celeridade",Feitiços:"Flash + Ghost",Build:"Bota CDR, itens de velocidade"},
+ tips:["Ela dá ~300 de dano por skill no começo: jogue pelo farm.","Use o Ghost pra forçar o W dela e acertar o Q vermelho.","Deixe ela low e sem mana: ou ela fica e não farma na torre, ou dá B e perde minion.","Com muita velocidade você desvia do Q e do E."],src:[["É assim que joga contra Aurora","rKVFlSeFNxc"]]},
+{n:"Azir",c:"Mago",t:3,note:"Só fica difícil se o Azir jogar muito bem.",setup:{Feitiços:"Flash + Ghost",Build:"Botas da Rapidez primeiro"},
+ tips:["No nível 1 use o Ghost pra chegar e dar dano com o Q.","Com a bota que pinica, ande reto e dê Q quando ele não tiver soldado pra te afastar.","Se ele der B sem TP, perde a wave toda."],src:[["APLICANDO O DIVE NO LEVEL 1! VLAD VS AZIR","yE0cF__XyKQ"]]},
+{n:"Brand",c:"Mago",t:3,note:"A poça cancela o dano da passiva. Fica difícil se ele começa de Liandry.",tips:["Poça quando a passiva estiver pra explodir.","Se ele errar, dá pra dar uma win e matar."],src:[["Tier list","vbiAtgBtaKs"]],thin:1},
+{n:"Cassiopeia",c:"Mago",t:5,note:"Com runa de velocidade e bom spacing, não é pro Vlad ganhar.",setup:{Runa:"Transcendência na página",Build:"Botas da Rapidez primeiro; itens de velocidade"},
+ tips:["Ameace ir pra cima pra ela gastar o W, e só aí troque.","Sem TP dela, segure a wave (freeze) e ela perde XP.","A lane é pra farmar e escalar."],src:[["A RUNA FEZ EU CARREGAR… VS CASSIOPEIA","A_tvQH3XfWw"]]},
+{n:"Corki",c:"Atirador",t:3,note:"Mediano.",tips:["Jogue pelo farm e pelo scaling."],src:[["Tier list","vbiAtgBtaKs"]],thin:1},
+{n:"Diana",c:"Assassino",t:4,note:"Um pouco mais difícil que Akali: o engage dela é muito bom e depois do 6 continua chata.",setup:{Feitiços:"Flash + Ignite"},
+ tips:["No nível 1 ela só consegue te dar Q: pokeie e use o Q vermelho pra ela perder XP.","Cuidado quando a passiva dela está carregada e com a agressão no nível 3.","Ela costuma ter Ignite.","Wave grande e ela sem poder dar B: slow push e pressão."],src:[["VLAD VS DIANA","tLaeNuq-Bb0"]]},
+{n:"Ekko",c:"Assassino",t:3,note:"Mediano; o problema dele é o roam.",setup:{Runa:"Página com Chamuscar",Feitiços:"Flash + Ignite",Build:"Ápice + Sapatos do Feiticeiro"},
+ tips:["Matchup de muito contato: brigue já no nível 1, você ganha a troca mesmo tomando a passiva.","Poça no nível 2 e use quando ele vier.","Resete no tempo da wave pra voltar com Lacre sem perder farm.","Com menos de 100 de mana dele, dá kill com flash."],src:[["APRENDA COMO GANHAR SEU MID LEVEL 2 VS EKKO","Sgl2LE4FaXY"]]},
+{n:"Fizz",c:"Assassino",t:2,note:"Fácil depois do early. Depois do primeiro back ele fica manco.",setup:{Runa:"Chamuscar + Até a Morte",Feitiços:"Flash + Ignite (opcional)",Build:"Ímpeto Cósmico + Sapatos do Feiticeiro"},
+ tips:["Cuidado no começo: ele dá muito dano pra te matar.","Sem poça, não ponha a cara.","Ele não tem sustain: qualquer trocazinha pesa."],src:[["COMO JOGAR DE VLAD VS FIZZ","meA4ZQf1Rc0"]]},
+{n:"Galio",c:"Mago",t:3,note:"Mediano, fácil em quase todo elo. De Conquistador e Criafendas primeiro você ganha o 1v1.",setup:{Runa:"Conquistador",Feitiços:"Flash + Ghost ou Ignite",Build:"Criafendas ou Ímpeto Cósmico primeiro"},
+ tips:["O Galio pode não morrer pra você, mas a lane é free.","Cuidado com a ult dele pra roam e gank.","Sem poça, se afaste e espere ela voltar."],src:[["A RUNA PERFEITA VS GALIO","uuEzja_FB4E"]]},
+{n:"Hwei",c:"Mago",t:3,note:"Não é difícil: dá pra acompanhar o CS fácil. Chato por ter 10 skills.",
+ tips:["Ameaçar ir pra cima faz ele perder farm.","Acompanhe a mana dele; no 6 dá pra matar.","Treine o Hwei no modo treino pra entender as skills."],src:[["ESSA BUILD DÁ MUITO DANO! VS HWEI","J0vEJBCrfmw"]]},
+{n:"Irelia",c:"Lutador",t:4,note:"Difícil no mid, mesmo que pareça que não.",setup:{Feitiços:"Flash + Ignite",Build:"Protobelt + penetração mágica (no vídeo)"},
+ tips:["Espere o W dela acabar antes de trocar.","Quando ela vem muito agressiva, morre pra torre ou pro gank.","Nível 6 na frente + Ignite = dive."],src:[["VLADIMIR VS IRELIA NO MID","uSJZrHINNms"]]},
+{n:"Jayce",c:"Lutador",t:4,note:"Difícil, mas é melee e dá pra jogar no erro dele.",tips:["Espere o erro e puna com Ignite."],src:[["Tier list","vbiAtgBtaKs"]],thin:1},
+{n:"Karma",c:"Suporte",t:5,note:"Se jogar certinho, não se vence.",tips:["Farme e jogue por Rocketbelt/scaling."],src:[["Tier list","vbiAtgBtaKs"]],thin:1},
+{n:"Karthus",c:"Mago",t:3,note:"Depende de ele acertar o Q; se não acerta, vira ultra fácil.",setup:{Build:"Pode começar de bota (CDR); Anel de Doran se ele estiver forte"},
+ tips:["Evite tomar Q isolado: dá dano dobrado.","Com bota cedo você desvia fácil.","Sem flash dele, dive."],src:[["Como jogar de Vladimir vs Karthus","CgJccEWt0zU"]]},
+{n:"Kassadin",c:"Assassino",t:2,note:"Fácil do 1 ao 5; depois do 6 dele fica complicado.",setup:{Feitiços:"Flash + Ignite"},
+ tips:["Antes do 6 a lane é tua: pokeie e puna pra ele perder o máximo de CS.","Se ele ficar low, flash + ignite; a kill tira os stacks do Lacre dele.","Contra mago inofensivo dá pra combar embaixo da torre usando a poça.","Se ele pegou XP de kill, chega no 2 na primeira wave."],src:[["Como ganhar de KASSADIN?","LNMFgNrgt4Y"]]},
+{n:"Katarina",c:"Assassino",t:2,note:"Fácil; a Katarina de Conquistador incomoda um pouco.",setup:{Runa:"Aery ou Toque Ígneo"},
+ tips:["Uma das matchups mais free: invada o espaço dela no mid.","A jogada é dive.","Sem poça, cuidado com o combo dela."],src:[["COMO STOMPAR UMA KATARINA","cvsipJscDN8"]]},
+{n:"Kayle",c:"Lutador",t:2,note:"Fácil: a lane é free pra você no começo.",tips:["Pressione cedo antes dela escalar."],src:[["Tier list","vbiAtgBtaKs"]],thin:1},
+{n:"Kennen",c:"Mago",t:3,note:"Meio chato no começo, depois fica suave.",tips:["Segure o early e farme."],src:[["Tier list","vbiAtgBtaKs"]],thin:1},
+{n:"LeBlanc",c:"Assassino",t:4,note:"Difícil. Se ela jogar certo, é uma lane bem chata.",setup:{Runa:"Aery",Feitiços:"Flash + Ignite",Build:"1º back componentes de AP, não bota"},
+ tips:["Não vá de Flash + Ghost/Conquistador: você entrega tanto early que ela faz o que quer.","Desvie da corrente (E).","Anote o flash dela e jogue agressivo sem flash.","Cuidado com gank (Evelynn etc.) quando estiver sem poça."],src:[["APRENDA COMO STOMPAR UMA LEBLANC","uUPEWfUzF8c"]]},
+{n:"Lissandra",c:"Mago",t:4,note:"Difícil se ela jogar no range. Bota de Mercúrio + Conquistador quebra ela.",setup:{Runa:"Conquistador",Build:"Códex/CDR cedo, Ímpeto Cósmico; Mercúrio se o jogo pedir"},
+ tips:["Tomar o Q dela é um slow enorme: não fique na linha dele atrás dos minions.","Você perde a troca mas ganha no sustain.","A poça no tempo certo cancela a ult dela.","Ela quase não tem sustain: troque sempre e cancele o recall."],src:[["EXPLICATIVA… VLAD VS LISSANDRA","j4HlMfsfBjk"]]},
+{n:"Lux",c:"Mago",t:3,note:"Mediano: dá pra desviar de tudo e só farmar.",
+ tips:["Não troque no nível 1: ela dá mais dano.","Conquistador não é o ideal aqui.","Faça ela perder XP de minion e baite o E no meio da lane.","Ela tem early forte e controla terreno: jogue com visão."],src:[["Aprenda COMO GANHAR de LUX","HF6dNv5Ttk8"]]},
+{n:"Malzahar",c:"Mago",t:5,note:"Muito difícil de matar, mas dá pra ficar farmando.",setup:{Build:"Bota cedo ajuda a chegar"},
+ tips:["Troque auto por Q quando ele estiver sem o escudo.","Puxe a wave pra torre dele: Malzahar sofre pra farmar embaixo da torre.","Mate os bichinhos dele; atrasando o farm, o Capítulo Perdido atrasa e ele fica sem dano.","Cuidado com ult + jungle."],src:[["APRENDA COMO JOGAR CONTRA MALZAHAR","os0ykYIFClk"]]},
+{n:"Mel",c:"Mago",t:3,note:"Muito difícil de matar, mas dá pra farmar tranquilo.",setup:{Build:"Botas da Rapidez cedo"},
+ tips:["Ela vai de Primeiro Ataque: comece a troca com Q.","Troque no nível 1 quando as waves se chocam.","Com a bota que pinica, entre no range quando o stun dela estiver em CD.","Sem mana pro W, ela morre."],src:[["Essa build é diferenciada! Vs Mel","iU-9W-BcTZY"]]},
+{n:"Morgana",c:"Suporte",t:2,note:"Fácil: talvez não mate, mas você dá outscale.",tips:["Farme e escale."],src:[["Tier list","vbiAtgBtaKs"]],thin:1},
+{n:"Naafiri",c:"Assassino",t:3,note:"Chata, mas não chega a difícil. Se ela errar, Ignite e kill.",setup:{Build:"Lacre; Sapatos do Feiticeiro cedo"},
+ tips:["Os cachorros bloqueiam o teu Q.","Bota cedo ajuda no vai-e-vem da lane.","Quando ela vem sem vida, kill."],src:[["Vladimir vs Naafiri mid","Vs12LZsHENs"]]},
+{n:"Neeko",c:"Mago",t:2,note:"Fácil hoje em dia.",tips:["Farme e escale."],src:[["Tier list","vbiAtgBtaKs"]],thin:1},
+{n:"Orianna",c:"Mago",t:5,note:"Super boneco; é normal perder por muito. Ele diz que é o maior counter do Vlad hoje.",
+ tips:["No nível 1 dá pra ganhar a troca, mas não troque perdendo minion.","O foco é farmar o máximo e lutar depois.","Sem TP ou flash dela, cobre e jogue agressivo.","Só dê recall quando não for perder minion."],src:[["COMO DOMINAR NA MATCHUP VS ORIANNA","y37k_9rhd00"]]},
+{n:"Pantheon",c:"Lutador",t:2,note:"Fácil. Use a poça no momento que ele pula em você.",tips:["Poça no pulo dele (R/W)."],src:[["Tier list","vbiAtgBtaKs"]],thin:1},
+{n:"Pyke",c:"Suporte",t:2,note:"Fácil de lidar no mid.",tips:["Farme e escale."],src:[["Tier list","vbiAtgBtaKs"]],thin:1},
+{n:"Qiyana",c:"Assassino",t:4,note:"Difícil; forte na lane e chata depois do primeiro item.",setup:{Runa:"Toque Ígneo",Feitiços:"Flash + Ignite",Build:"Ápice da Tempestade"},
+ tips:["O Toque ajuda a achar ela quando fica invisível no mato.","O pior é antes do primeiro recall.","Sem poça, jogue recuado.","Não tenha pressa: ela ganha o 1v1 cedo e você escala."],src:[["SOLEI UM MALPHITE… VLAD VS QIYANA","yBc7zaF2_ZE"]]},
+{n:"Rumble",c:"Mago",t:2,note:"Não é fácil, mas no mid dá pra lidar de boa.",tips:["Farme e evite a zona do E/R."],src:[["Tier list","vbiAtgBtaKs"]],thin:1},
+{n:"Ryze",c:"Mago",t:5,note:"Super boneco; normal perder por muito.",
+ tips:["Troque quando ele estiver sem mana ou sem stun, pra forçar as poções.","Não gaste a poça à toa se ele está sem mana.","Farme e fique com mais level que ele."],src:[["Vladimir vs Ryze","Z0O7YBxoQ38"]]},
+{n:"Seraphine",c:"Suporte",t:1,note:"Ultra fácil: suporte no mid.",tips:["Pressione a lane."],src:[["Tier list","vbiAtgBtaKs"]],thin:1},
+{n:"Swain",c:"Mago",t:3,note:"Mediano, costuma ser de boa.",
+ tips:["Sem range pra trocar, cure no minion com o Q.","Wardeie e jogue do lado da ward.","Sincronize Q vermelho + E + flash no all-in e espere o escudo dele cair antes da ult."],src:[["19/0 de Vladimir vs Swain","qTR-0JLSLcQ"]]},
+{n:"Sylas",c:"Lutador",t:3,note:"Mediano, skill match.",setup:{Runa:"Até a Morte + Chamuscar",Feitiços:"Flash + Ignite",Build:"Lacre + bota; na frente, Ápice primeiro"},
+ tips:["Espere a primeira skill dele; desvie da segunda parte do E e devolva com auto + Q.","Poça no nível 2, usada quando ele solta skill em você.","A poça no tempo certo cancela a cura do W dele.","Cuidado com Trovão + Ignite dele quando o E está up."],src:[["Gameplay explicativa no MID vs SYLAS","ssMCyXmT0_o"]]},
+{n:"Taliyah",c:"Mago",t:4,note:"Difícil porque não deixa chegar, mas você farma de boa.",setup:{Runa:"Transcendência",Build:"Botas da Rapidez; Mejai"},
+ tips:["Não se preocupe em solar: mantenha os recursos.","Ela empurra rápido e não dá pra contestar o push."],src:[["TOP 1 VLAD VS PRO PLAYER - VS TALIYAH","1FINXdglExQ"]]},
+{n:"Talon",c:"Assassino",t:3,note:"Mediano.",setup:{Feitiços:"Flash + Ignite (não Ghost)",Build:"Anel de Doran ou Lacre"},
+ tips:["Bata no nível 1 e cuidado com o combo do nível 2.","Quando ele pular, poça na cara dele.","Com ele low, puxe a wave: ele farma com medo ou perde minion."],src:[["RANK 1 VLAD vs Talon","2ryCQ03N5zs"]]},
+{n:"Tristana",c:"Atirador",t:3,note:"Mediano; cuidado com o early dela.",setup:{Runa:"Aery + Chamuscar",Feitiços:"Flash + Ignite ou Ghost"},
+ tips:["Use a poça quando ela grudar a bomba (E): a bomba some.","Ela quer empurrar e bater na torre; difícil matar na rota."],src:[["VLAD VS TRISTANA MID","o98h5NImQ2s"]]},
+{n:"Twisted Fate",c:"Mago",t:2,note:"Quase ultra fácil: depois do 6 ele só joga mapa.",tips:["Avise o time quando ele pega 6.","Na lane é free pra você."],src:[["Tier list","vbiAtgBtaKs"]],thin:1},
+{n:"Varus",c:"Atirador",t:4,note:"Muito difícil: bate muito em quem tem vida, mas é vulnerável a gank.",tips:["Peça ajuda do jungle, ele morre fácil."],src:[["Tier list","vbiAtgBtaKs"]],thin:1},
+{n:"Veigar",c:"Mago",t:2,note:"Fácil.",setup:{Runa:"Conquistador",Build:"Bota CDR, depois Ímpeto Cósmico"},
+ tips:["Troque quando ele gastar skill no minion e estenda.","Ignite ativa o Manto de Nimbus e te gruda pro Q vermelho.","Cuidado com a ult dele quando estiver low."],src:[["APRENDA COMO VOLTAR NO JOGO VS VEIGAR","gseTFUCw1Ls"]]},
+{n:"Vel'Koz",c:"Mago",t:3,note:"Mediano por causa do range.",setup:{Feitiços:"Flash + Ghost",Build:"1º back bota de velocidade (obrigatório)"},
+ tips:["Chegue no nível 1 e troque autos.","Depois de uma kill, resete em vez de forçar outra.","Use a poça pra desviar do E.","Pinique quando ele gastar o Q e saia antes da ult."],src:[["Gameplay explicativa vs Velkoz","Er26tYz7aiQ"]]},
+{n:"Vex",c:"Mago",t:2,note:"Fácil hoje em dia.",setup:{Build:"Bota CDR cedo"},
+ tips:["A passiva dela tem CD médio (~3s): ande pra frente logo depois que ela gastar.","Poça no 2; quando ela tentar o fear, poça (dano e cura nos minions).","Quem mata os 2 minions guerreiros da wave de catapa primeiro chega no 3 antes.","Entre na poça faltando 2s pro Q e saia dando Q."],src:[["TUTORIAL VLADIMIR VS VEX","Hs4AskaK1IQ"]]},
+{n:"Viktor",c:"Mago",t:5,note:"Um dos mais fortes contra o Vlad.",setup:{Runa:"Avanço da Tempestade/Tempestade Crescente ou Conquistador",Build:"Protobelt; bota CDR cedo"},
+ tips:["Respeite e farme; vá pra cima quando ele gastar o Q.","Q vermelho contra o Q dele empata; Q normal contra o dele perde.","Puna quando ele voltar de TP e ainda não tem bota."],src:[["COMO SE COMPORTAR NA COUNTER MATCH? VS VIKTOR","vqdO53NdLyw"]]},
+{n:"Xerath",c:"Mago",t:3,note:"Mediano por causa do range.",
+ tips:["Normalmente é só farmar.","Depois do primeiro item, se ele gastar o E, ande reto e mate.","Use o Q vermelho pra ele perder XP e pegue 6 bem antes.","Quando ele volta de TP sem poção, combo com R."],src:[["VLAD VS XERATH","WFpOodPF1ME"]]},
+{n:"Yasuo",c:"Lutador",t:3,note:"Skill match; mais difícil que o Yone porque o E tem CD baixo.",setup:{Runa:"Toque Ígneo"},
+ tips:["Ele costuma começar de E: dê um auto pra tirar o escudo e devolva com Q.","Mesmo perdendo a troca, teu sustain compensa.","Freeze perto da tua torre deixa ele desconfortável.","Respeite muito quando ele tem ult + flash + ignite e você está sem poça."],src:[["Essa runa é muito forte pro early… vs Yasuo","XWKdCgtw5gU"]]},
+{n:"Yone",c:"Lutador",t:2,note:"Fácil; só complica quando ele fecha item e vem te dar autos.",setup:{Runa:"Toque Ígneo"},
+ tips:["Poça no E ou no R dele.","Dive no limite quando ele estiver low."],src:[["Aprenda ganhar de YONE","LgAp1r8NJMU"]]},
+{n:"Zed",c:"Assassino",t:3,note:"Mediano: fica muito forte ao fechar o primeiro item, mas a poça cancela a ult.",setup:{Runa:"Toque Ígneo",Feitiços:"Flash + Ignite",Build:"Ápice da Tempestade"},
+ tips:["Early é farmar e esperar gank.","Puna quando ele gasta a sombra: o W tem CD alto.","Depois do 6, guarde a poça pra cancelar a ult."],src:[["A MELHOR BUILD CONTRA ZED","6oR0yioRrwk"]]},
+{n:"Ziggs",c:"Mago",t:2,note:"Fácil: é matchup de poke, ele não quer interação.",
+ tips:["Desvie das bombas e farme mais que ele.","Ele de TP abre janela de kill.","Freeze perto da tua torre deixa a lane segura."],src:[["APRENDA COMO JOGAR CONTRA ZIGGS","u-SgFmT1HWQ"]]},
+{n:"Zilean",c:"Suporte",t:3,note:"Fácil de farmar, mas quando ele fica te dando slow você não alcança mais.",tips:["Farme e escale."],src:[["Tier list","vbiAtgBtaKs"]],thin:1},
+{n:"Zoe",c:"Mago",t:5,note:"No mesmo nível, o Vlad não ganha. Muito forte no early.",setup:{Runa:"Toque Ígneo + velocidade (Celeridade)",Build:"Bota CDR no primeiro back"},
+ tips:["Sem poça, respeite muito: um E + Q te mata ou deixa com 50 de vida.","A bolha tem CD alto, mas a tua poça tem CD maior.","Com ela low e sem TP, mantenha na lane e ganhe no sustain."],src:[["DESTRUINDO UMA ZOE NO MID","MU89UG_Jb1Q"]]}
+];
+const CCOL={Mago:"#6a3fa0",Assassino:"#8f1d33",Lutador:"#8a5a1c",Atirador:"#1f6b78",Suporte:"#3a7a4a"};
+let state={q:"",cls:new Set(),tiers:new Set(),guide:false,sort:"az",sel:"Syndra"};
+const $=s=>document.querySelector(s);
+function initials(n){return n.replace(/[^A-Za-z ]/g,"").split(" ").map(w=>w[0]).join("").slice(0,2)}
+function pips(t){return `<span class="pips" style="--c:${TCOL[t]}">${[1,2,3,4,5].map(i=>`<i class="${i<=t?"on":""}"></i>`).join("")}</span>`}
+function list(){
+  let r=DATA.filter(d=>(!state.q||d.n.toLowerCase().includes(state.q))&&(!state.cls.size||state.cls.has(d.c))&&(!state.tiers.size||state.tiers.has(d.t))&&(!state.guide||!d.thin));
+  r.sort((a,b)=>state.sort==="hard"?b.t-a.t||a.n.localeCompare(b.n):state.sort==="easy"?a.t-b.t||a.n.localeCompare(b.n):a.n.localeCompare(b.n));
+  return r;
+}
+function renderRoster(){
+  const r=list();
+  $("#count").textContent=`${r.length}/${DATA.length}`;
+  $("#roster").innerHTML=r.length?r.map(d=>`<button class="tile" data-n="${d.n}" aria-current="${d.n===state.sel}">${d.thin?'<span class="noguide" title="Só tier list">TL</span>':""}<span class="mono" style="--c:${CCOL[d.c]}">${initials(d.n)}</span><span class="nm">${d.n}</span>${pips(d.t)}</button>`).join(""):`<div class="empty">Nenhum campeão com esses filtros.</div>`;
+}
+function renderPanel(){
+  const d=DATA.find(x=>x.n===state.sel);
+  if(!d){$("#panel").innerHTML='<p class="cls">Escolha um inimigo na grade.</p>';return}
+  const setup=d.setup?`<div class="sec"><h3>Setup</h3><dl class="setup">${Object.entries(d.setup).map(([k,v])=>`<dt>${k}</dt><dd>${v}</dd>`).join("")}</dl></div>`:"";
+  $("#panel").innerHTML=`<div class="cls">${d.c}</div><h2>${d.n}</h2>
+  <span class="tierbadge" style="--c:${TCOL[d.t]}">${d.t}/5 · ${TIERS[d.t]}</span>
+  <p class="tiernote">${d.note}</p>${setup}
+  <div class="sec"><h3>Na lane</h3><ul class="tips">${d.tips.map(t=>`<li>${t}</li>`).join("")}</ul></div>
+  ${d.thin?'<div class="sec note">Só tem a opinião da tier list; ainda não achei vídeo de lane dele contra esse campeão.</div>':""}
+  <div class="src"><span>Fonte</span>${d.src.map(([t,id])=>`<a href="${yt(id)}" target="_blank" rel="noopener">${t} ↗</a>`).join("")}</div>`;
+}
+function render(){renderRoster();renderPanel()}
+$("#clsChips").innerHTML=CLASSES.map(c=>`<button class="chip" aria-pressed="false" data-c="${c}">${c}</button>`).join("");
+$("#tierFilter").insertAdjacentHTML("beforeend",[1,2,3,4,5].map(t=>`<button class="tf" aria-pressed="false" data-t="${t}" title="${TIERS[t]}">${t}</button>`).join(""));
+$("#clsChips").addEventListener("click",e=>{const b=e.target.closest(".chip");if(!b)return;const c=b.dataset.c;state.cls.has(c)?state.cls.delete(c):state.cls.add(c);b.setAttribute("aria-pressed",state.cls.has(c));renderRoster()});
+$("#tierFilter").addEventListener("click",e=>{const b=e.target.closest(".tf");if(!b)return;const t=+b.dataset.t;const on=!state.tiers.has(t);on?state.tiers.add(t):state.tiers.delete(t);b.setAttribute("aria-pressed",on);b.style.background=on?TCOL[t]:"";renderRoster()});
+$("#q").addEventListener("input",e=>{state.q=e.target.value.trim().toLowerCase();renderRoster()});
+$("#onlyGuide").addEventListener("change",e=>{state.guide=e.target.checked;renderRoster()});
+$("#sort").addEventListener("change",e=>{state.sort=e.target.value;renderRoster()});
+$("#roster").addEventListener("click",e=>{const b=e.target.closest(".tile");if(!b)return;state.sel=b.dataset.n;render();if(innerWidth<900)$("#panel").scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"})});
+$("#rand").addEventListener("click",()=>{const r=list();if(!r.length)return;state.sel=r[Math.floor(Math.random()*r.length)].n;render()});
+$("#lock").addEventListener("click",()=>{const r=list();if(r.length&&!r.some(d=>d.n===state.sel))state.sel=r[0].n;renderPanel();$("#panel").scrollIntoView({behavior:"smooth",block:"start"})});
+document.querySelectorAll(".tabs button").forEach(b=>b.addEventListener("click",()=>{document.querySelectorAll(".tabs button").forEach(x=>x.setAttribute("aria-selected",x===b));$("#view-m").hidden=b.dataset.view!=="m";$("#view-f").hidden=b.dataset.view!=="f"}));
+render();
+</script>

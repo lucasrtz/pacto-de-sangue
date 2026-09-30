@@ -1,0 +1,1207 @@
+{
+  "difficultyScale": {
+    "1": "Ultra fácil",
+    "2": "Fácil",
+    "3": "Mediano",
+    "4": "Difícil",
+    "5": "Perde no mesmo nível"
+  },
+  "matchups": [
+    {
+      "champion": "Syndra",
+      "class": "Mago",
+      "difficulty": 4,
+      "summary": "Ela vence a matchup, mas ele desceu ela de 'perde' pra 'difícil'. Quase não aparece no elo alto.",
+      "setup": {
+        "Runa": "Avanço da Tempestade (padrão contra range)",
+        "Feitiços": "Flash + Ghost",
+        "Build": "Rush de item de dano cedo; bota de velocidade pra entrar no range"
+      },
+      "laneTips": [
+        "Mesmo atrás, a Syndra continua batendo em você. A lane é dela, então farme e não aceite troca longa.",
+        "Ela vira alvo fácil quando você pega a primeira vantagem: no vídeo ele pega kill com o jungle no nível 1.",
+        "Guarde a poça para o stun do E (esfera empurrada) e para a ult; com as esferas no ar, a poça faz elas não acertarem.",
+        "Padrão dele contra mago de range: bota de velocidade cedo e 'pinicar' com Q só quando ela gastar a combinação de skills.",
+        "No curso tem duas aulas só de Syndra (counter e 'vantagem de kill'); vale ver as duas."
+      ],
+      "onlyTierList": false,
+      "sources": [
+        {
+          "title": "SOLANDO PRO PLAYER LEVEL 1! VLAD VS SYNDRA (2024)",
+          "url": "https://www.youtube.com/watch?v=mdvyYCqGvtY"
+        },
+        {
+          "title": "Tier list das matchups (2026)",
+          "url": "https://www.youtube.com/watch?v=vbiAtgBtaKs"
+        }
+      ]
+    },
+    {
+      "champion": "Ahri",
+      "class": "Mago",
+      "difficulty": 3,
+      "summary": "Mediano.",
+      "setup": {
+        "Runa": "Avanço da Tempestade",
+        "Feitiços": "Flash + Ghost",
+        "Build": "1º back Lacre Sombrio (bota opcional)"
+      },
+      "laneTips": [
+        "O Avanço da Tempestade é o que te tira do engage dela.",
+        "Anote o tempo do flash dela e puna enquanto estiver fora.",
+        "Negue XP pra ela não pegar 6 antes de você.",
+        "Ahri costuma ir de Ignite: respeite o tempo da tua poça."
+      ],
+      "onlyTierList": false,
+      "sources": [
+        {
+          "title": "FARMEI O JOGO TODO… VLAD VS AHRI",
+          "url": "https://www.youtube.com/watch?v=DML9wdO4Tt0"
+        }
+      ]
+    },
+    {
+      "champion": "Akali",
+      "class": "Assassino",
+      "difficulty": 4,
+      "summary": "Difícil. Ignite e rush de Ápice da Tempestade ajudam a vencer.",
+      "setup": {
+        "Runa": "Toque Ígneo",
+        "Feitiços": "Flash + Ignite",
+        "Build": "Ápice da Tempestade primeiro"
+      },
+      "laneTips": [
+        "Ela costuma começar de Escudo de Doran, que atrapalha o Toque.",
+        "O segredo é esperar ela gastar a sombra (W) antes de trocar.",
+        "Cuidado quando ela pega nível 6: no vídeo ele morre ali.",
+        "Use o Ignite cedo pra finalizar."
+      ],
+      "onlyTierList": false,
+      "sources": [
+        {
+          "title": "Aprenda como destruir Akali na lane",
+          "url": "https://www.youtube.com/watch?v=tKWWvsq5aCA"
+        }
+      ]
+    },
+    {
+      "champion": "Akshan",
+      "class": "Atirador",
+      "difficulty": 4,
+      "summary": "Difícil: early muito forte e presença de mapa grande, mas não a ponto de te fazer perder muito CS.",
+      "setup": null,
+      "laneTips": [
+        "Respeite o early e jogue pra escalar."
+      ],
+      "onlyTierList": true,
+      "sources": [
+        {
+          "title": "Tier list",
+          "url": "https://www.youtube.com/watch?v=vbiAtgBtaKs"
+        }
+      ]
+    },
+    {
+      "champion": "Anivia",
+      "class": "Mago",
+      "difficulty": 5,
+      "summary": "Uma das piores. Dá outrange com auto e Q e obriga Botas da Rapidez.",
+      "setup": {
+        "Runa": "Aery (no vídeo) ou Avanço da Tempestade",
+        "Feitiços": "Flash + Ghost",
+        "Build": "Botas da Rapidez cedo"
+      },
+      "laneTips": [
+        "Não tem como chegar nela na lane: farme.",
+        "Jogue pro teu jungle ajudar a quebrar o ovo (passiva) cedo.",
+        "Contra Anivia o Avanço da Tempestade ajuda a correr do slow."
+      ],
+      "onlyTierList": false,
+      "sources": [
+        {
+          "title": "TOP 1 VLAD VS ANIVIA",
+          "url": "https://www.youtube.com/watch?v=j3iCmy1Rzzw"
+        }
+      ]
+    },
+    {
+      "champion": "Annie",
+      "class": "Mago",
+      "difficulty": 2,
+      "summary": "Simples em geral; em alto nível fica mais difícil. Cuidado pra não tomar o stun.",
+      "setup": {
+        "Feitiços": "Flash + Ghost",
+        "Build": "Build simples, bota cedo"
+      },
+      "laneTips": [
+        "Troque logo depois que ela gastar o stun.",
+        "Force as poções cedo; ela não tem sustain.",
+        "Contra quem não tem TP, ligue o Ghost pra dar dano: ela dá B e perde a wave.",
+        "Fique na lane até o 6 ganhando no sustain; anote o flash dela."
+      ],
+      "onlyTierList": false,
+      "sources": [
+        {
+          "title": "BUILD FÁCIL… ANNIE MATCHUP",
+          "url": "https://www.youtube.com/watch?v=rkvvKDwO_SI"
+        }
+      ]
+    },
+    {
+      "champion": "Aurelion Sol",
+      "class": "Mago",
+      "difficulty": 1,
+      "summary": "Ultra fácil: lane muito fraca. Só cuidado com o Q.",
+      "setup": null,
+      "laneTips": [
+        "Farme e puna a lane fraca dele."
+      ],
+      "onlyTierList": true,
+      "sources": [
+        {
+          "title": "Tier list",
+          "url": "https://www.youtube.com/watch?v=vbiAtgBtaKs"
+        }
+      ]
+    },
+    {
+      "champion": "Aurora",
+      "class": "Mago",
+      "difficulty": 4,
+      "summary": "Difícil. Sobreviva ao early e compre velocidade pra desviar do Q.",
+      "setup": {
+        "Runa": "Avanço da Tempestade + Celeridade",
+        "Feitiços": "Flash + Ghost",
+        "Build": "Bota CDR, itens de velocidade"
+      },
+      "laneTips": [
+        "Ela dá ~300 de dano por skill no começo: jogue pelo farm.",
+        "Use o Ghost pra forçar o W dela e acertar o Q vermelho.",
+        "Deixe ela low e sem mana: ou ela fica e não farma na torre, ou dá B e perde minion.",
+        "Com muita velocidade você desvia do Q e do E."
+      ],
+      "onlyTierList": false,
+      "sources": [
+        {
+          "title": "É assim que joga contra Aurora",
+          "url": "https://www.youtube.com/watch?v=rKVFlSeFNxc"
+        }
+      ]
+    },
+    {
+      "champion": "Azir",
+      "class": "Mago",
+      "difficulty": 3,
+      "summary": "Só fica difícil se o Azir jogar muito bem.",
+      "setup": {
+        "Feitiços": "Flash + Ghost",
+        "Build": "Botas da Rapidez primeiro"
+      },
+      "laneTips": [
+        "No nível 1 use o Ghost pra chegar e dar dano com o Q.",
+        "Com a bota que pinica, ande reto e dê Q quando ele não tiver soldado pra te afastar.",
+        "Se ele der B sem TP, perde a wave toda."
+      ],
+      "onlyTierList": false,
+      "sources": [
+        {
+          "title": "APLICANDO O DIVE NO LEVEL 1! VLAD VS AZIR",
+          "url": "https://www.youtube.com/watch?v=yE0cF__XyKQ"
+        }
+      ]
+    },
+    {
+      "champion": "Brand",
+      "class": "Mago",
+      "difficulty": 3,
+      "summary": "A poça cancela o dano da passiva. Fica difícil se ele começa de Liandry.",
+      "setup": null,
+      "laneTips": [
+        "Poça quando a passiva estiver pra explodir.",
+        "Se ele errar, dá pra dar uma win e matar."
+      ],
+      "onlyTierList": true,
+      "sources": [
+        {
+          "title": "Tier list",
+          "url": "https://www.youtube.com/watch?v=vbiAtgBtaKs"
+        }
+      ]
+    },
+    {
+      "champion": "Cassiopeia",
+      "class": "Mago",
+      "difficulty": 5,
+      "summary": "Com runa de velocidade e bom spacing, não é pro Vlad ganhar.",
+      "setup": {
+        "Runa": "Transcendência na página",
+        "Build": "Botas da Rapidez primeiro; itens de velocidade"
+      },
+      "laneTips": [
+        "Ameace ir pra cima pra ela gastar o W, e só aí troque.",
+        "Sem TP dela, segure a wave (freeze) e ela perde XP.",
+        "A lane é pra farmar e escalar."
+      ],
+      "onlyTierList": false,
+      "sources": [
+        {
+          "title": "A RUNA FEZ EU CARREGAR… VS CASSIOPEIA",
+          "url": "https://www.youtube.com/watch?v=A_tvQH3XfWw"
+        }
+      ]
+    },
+    {
+      "champion": "Corki",
+      "class": "Atirador",
+      "difficulty": 3,
+      "summary": "Mediano.",
+      "setup": null,
+      "laneTips": [
+        "Jogue pelo farm e pelo scaling."
+      ],
+      "onlyTierList": true,
+      "sources": [
+        {
+          "title": "Tier list",
+          "url": "https://www.youtube.com/watch?v=vbiAtgBtaKs"
+        }
+      ]
+    },
+    {
+      "champion": "Diana",
+      "class": "Assassino",
+      "difficulty": 4,
+      "summary": "Um pouco mais difícil que Akali: o engage dela é muito bom e depois do 6 continua chata.",
+      "setup": {
+        "Feitiços": "Flash + Ignite"
+      },
+      "laneTips": [
+        "No nível 1 ela só consegue te dar Q: pokeie e use o Q vermelho pra ela perder XP.",
+        "Cuidado quando a passiva dela está carregada e com a agressão no nível 3.",
+        "Ela costuma ter Ignite.",
+        "Wave grande e ela sem poder dar B: slow push e pressão."
+      ],
+      "onlyTierList": false,
+      "sources": [
+        {
+          "title": "VLAD VS DIANA",
+          "url": "https://www.youtube.com/watch?v=tLaeNuq-Bb0"
+        }
+      ]
+    },
+    {
+      "champion": "Ekko",
+      "class": "Assassino",
+      "difficulty": 3,
+      "summary": "Mediano; o problema dele é o roam.",
+      "setup": {
+        "Runa": "Página com Chamuscar",
+        "Feitiços": "Flash + Ignite",
+        "Build": "Ápice + Sapatos do Feiticeiro"
+      },
+      "laneTips": [
+        "Matchup de muito contato: brigue já no nível 1, você ganha a troca mesmo tomando a passiva.",
+        "Poça no nível 2 e use quando ele vier.",
+        "Resete no tempo da wave pra voltar com Lacre sem perder farm.",
+        "Com menos de 100 de mana dele, dá kill com flash."
+      ],
+      "onlyTierList": false,
+      "sources": [
+        {
+          "title": "APRENDA COMO GANHAR SEU MID LEVEL 2 VS EKKO",
+          "url": "https://www.youtube.com/watch?v=Sgl2LE4FaXY"
+        }
+      ]
+    },
+    {
+      "champion": "Fizz",
+      "class": "Assassino",
+      "difficulty": 2,
+      "summary": "Fácil depois do early. Depois do primeiro back ele fica manco.",
+      "setup": {
+        "Runa": "Chamuscar + Até a Morte",
+        "Feitiços": "Flash + Ignite (opcional)",
+        "Build": "Ímpeto Cósmico + Sapatos do Feiticeiro"
+      },
+      "laneTips": [
+        "Cuidado no começo: ele dá muito dano pra te matar.",
+        "Sem poça, não ponha a cara.",
+        "Ele não tem sustain: qualquer trocazinha pesa."
+      ],
+      "onlyTierList": false,
+      "sources": [
+        {
+          "title": "COMO JOGAR DE VLAD VS FIZZ",
+          "url": "https://www.youtube.com/watch?v=meA4ZQf1Rc0"
+        }
+      ]
+    },
+    {
+      "champion": "Galio",
+      "class": "Mago",
+      "difficulty": 3,
+      "summary": "Mediano, fácil em quase todo elo. De Conquistador e Criafendas primeiro você ganha o 1v1.",
+      "setup": {
+        "Runa": "Conquistador",
+        "Feitiços": "Flash + Ghost ou Ignite",
+        "Build": "Criafendas ou Ímpeto Cósmico primeiro"
+      },
+      "laneTips": [
+        "O Galio pode não morrer pra você, mas a lane é free.",
+        "Cuidado com a ult dele pra roam e gank.",
+        "Sem poça, se afaste e espere ela voltar."
+      ],
+      "onlyTierList": false,
+      "sources": [
+        {
+          "title": "A RUNA PERFEITA VS GALIO",
+          "url": "https://www.youtube.com/watch?v=uuEzja_FB4E"
+        }
+      ]
+    },
+    {
+      "champion": "Hwei",
+      "class": "Mago",
+      "difficulty": 3,
+      "summary": "Não é difícil: dá pra acompanhar o CS fácil. Chato por ter 10 skills.",
+      "setup": null,
+      "laneTips": [
+        "Ameaçar ir pra cima faz ele perder farm.",
+        "Acompanhe a mana dele; no 6 dá pra matar.",
+        "Treine o Hwei no modo treino pra entender as skills."
+      ],
+      "onlyTierList": false,
+      "sources": [
+        {
+          "title": "ESSA BUILD DÁ MUITO DANO! VS HWEI",
+          "url": "https://www.youtube.com/watch?v=J0vEJBCrfmw"
+        }
+      ]
+    },
+    {
+      "champion": "Irelia",
+      "class": "Lutador",
+      "difficulty": 4,
+      "summary": "Difícil no mid, mesmo que pareça que não.",
+      "setup": {
+        "Feitiços": "Flash + Ignite",
+        "Build": "Rocketbelt + penetração mágica (no vídeo aparece o antigo Protobelt)"
+      },
+      "laneTips": [
+        "Espere o W dela acabar antes de trocar.",
+        "Quando ela vem muito agressiva, morre pra torre ou pro gank.",
+        "Nível 6 na frente + Ignite = dive."
+      ],
+      "onlyTierList": false,
+      "sources": [
+        {
+          "title": "VLADIMIR VS IRELIA NO MID",
+          "url": "https://www.youtube.com/watch?v=uSJZrHINNms"
+        }
+      ]
+    },
+    {
+      "champion": "Jayce",
+      "class": "Lutador",
+      "difficulty": 4,
+      "summary": "Difícil, mas é melee e dá pra jogar no erro dele.",
+      "setup": null,
+      "laneTips": [
+        "Espere o erro e puna com Ignite."
+      ],
+      "onlyTierList": true,
+      "sources": [
+        {
+          "title": "Tier list",
+          "url": "https://www.youtube.com/watch?v=vbiAtgBtaKs"
+        }
+      ]
+    },
+    {
+      "champion": "Karma",
+      "class": "Suporte",
+      "difficulty": 5,
+      "summary": "Se jogar certinho, não se vence.",
+      "setup": null,
+      "laneTips": [
+        "Farme e jogue por Rocketbelt/scaling."
+      ],
+      "onlyTierList": true,
+      "sources": [
+        {
+          "title": "Tier list",
+          "url": "https://www.youtube.com/watch?v=vbiAtgBtaKs"
+        }
+      ]
+    },
+    {
+      "champion": "Karthus",
+      "class": "Mago",
+      "difficulty": 3,
+      "summary": "Depende de ele acertar o Q; se não acerta, vira ultra fácil.",
+      "setup": {
+        "Build": "Pode começar de bota (CDR); Anel de Doran se ele estiver forte"
+      },
+      "laneTips": [
+        "Evite tomar Q isolado: dá dano dobrado.",
+        "Com bota cedo você desvia fácil.",
+        "Sem flash dele, dive."
+      ],
+      "onlyTierList": false,
+      "sources": [
+        {
+          "title": "Como jogar de Vladimir vs Karthus",
+          "url": "https://www.youtube.com/watch?v=CgJccEWt0zU"
+        }
+      ]
+    },
+    {
+      "champion": "Kassadin",
+      "class": "Assassino",
+      "difficulty": 2,
+      "summary": "Fácil do 1 ao 5; depois do 6 dele fica complicado.",
+      "setup": {
+        "Feitiços": "Flash + Ignite"
+      },
+      "laneTips": [
+        "Antes do 6 a lane é tua: pokeie e puna pra ele perder o máximo de CS.",
+        "Se ele ficar low, flash + ignite; a kill tira os stacks do Lacre dele.",
+        "Contra mago inofensivo dá pra combar embaixo da torre usando a poça.",
+        "Se ele pegou XP de kill, chega no 2 na primeira wave."
+      ],
+      "onlyTierList": false,
+      "sources": [
+        {
+          "title": "Como ganhar de KASSADIN?",
+          "url": "https://www.youtube.com/watch?v=LNMFgNrgt4Y"
+        }
+      ]
+    },
+    {
+      "champion": "Katarina",
+      "class": "Assassino",
+      "difficulty": 2,
+      "summary": "Fácil; a Katarina de Conquistador incomoda um pouco.",
+      "setup": {
+        "Runa": "Aery ou Toque Ígneo"
+      },
+      "laneTips": [
+        "Uma das matchups mais free: invada o espaço dela no mid.",
+        "A jogada é dive.",
+        "Sem poça, cuidado com o combo dela."
+      ],
+      "onlyTierList": false,
+      "sources": [
+        {
+          "title": "COMO STOMPAR UMA KATARINA",
+          "url": "https://www.youtube.com/watch?v=cvsipJscDN8"
+        }
+      ]
+    },
+    {
+      "champion": "Kayle",
+      "class": "Lutador",
+      "difficulty": 2,
+      "summary": "Fácil: a lane é free pra você no começo.",
+      "setup": null,
+      "laneTips": [
+        "Pressione cedo antes dela escalar."
+      ],
+      "onlyTierList": true,
+      "sources": [
+        {
+          "title": "Tier list",
+          "url": "https://www.youtube.com/watch?v=vbiAtgBtaKs"
+        }
+      ]
+    },
+    {
+      "champion": "Kennen",
+      "class": "Mago",
+      "difficulty": 3,
+      "summary": "Meio chato no começo, depois fica suave.",
+      "setup": null,
+      "laneTips": [
+        "Segure o early e farme."
+      ],
+      "onlyTierList": true,
+      "sources": [
+        {
+          "title": "Tier list",
+          "url": "https://www.youtube.com/watch?v=vbiAtgBtaKs"
+        }
+      ]
+    },
+    {
+      "champion": "LeBlanc",
+      "class": "Assassino",
+      "difficulty": 4,
+      "summary": "Difícil. Se ela jogar certo, é uma lane bem chata.",
+      "setup": {
+        "Runa": "Aery",
+        "Feitiços": "Flash + Ignite",
+        "Build": "1º back componentes de AP, não bota"
+      },
+      "laneTips": [
+        "Não vá de Flash + Ghost/Conquistador: você entrega tanto early que ela faz o que quer.",
+        "Desvie da corrente (E).",
+        "Anote o flash dela e jogue agressivo sem flash.",
+        "Cuidado com gank (Evelynn etc.) quando estiver sem poça."
+      ],
+      "onlyTierList": false,
+      "sources": [
+        {
+          "title": "APRENDA COMO STOMPAR UMA LEBLANC",
+          "url": "https://www.youtube.com/watch?v=uUPEWfUzF8c"
+        }
+      ]
+    },
+    {
+      "champion": "Lissandra",
+      "class": "Mago",
+      "difficulty": 4,
+      "summary": "Difícil se ela jogar no range. Bota de Mercúrio + Conquistador quebra ela.",
+      "setup": {
+        "Runa": "Conquistador",
+        "Build": "Códex/CDR cedo, Ímpeto Cósmico; Mercúrio se o jogo pedir"
+      },
+      "laneTips": [
+        "Tomar o Q dela é um slow enorme: não fique na linha dele atrás dos minions.",
+        "Você perde a troca mas ganha no sustain.",
+        "A poça no tempo certo cancela a ult dela.",
+        "Ela quase não tem sustain: troque sempre e cancele o recall."
+      ],
+      "onlyTierList": false,
+      "sources": [
+        {
+          "title": "EXPLICATIVA… VLAD VS LISSANDRA",
+          "url": "https://www.youtube.com/watch?v=j4HlMfsfBjk"
+        }
+      ]
+    },
+    {
+      "champion": "Lux",
+      "class": "Mago",
+      "difficulty": 3,
+      "summary": "Mediano: dá pra desviar de tudo e só farmar.",
+      "setup": null,
+      "laneTips": [
+        "Não troque no nível 1: ela dá mais dano.",
+        "Conquistador não é o ideal aqui.",
+        "Faça ela perder XP de minion e baite o E no meio da lane.",
+        "Ela tem early forte e controla terreno: jogue com visão."
+      ],
+      "onlyTierList": false,
+      "sources": [
+        {
+          "title": "Aprenda COMO GANHAR de LUX",
+          "url": "https://www.youtube.com/watch?v=HF6dNv5Ttk8"
+        }
+      ]
+    },
+    {
+      "champion": "Malzahar",
+      "class": "Mago",
+      "difficulty": 5,
+      "summary": "Muito difícil de matar, mas dá pra ficar farmando.",
+      "setup": {
+        "Build": "Bota cedo ajuda a chegar"
+      },
+      "laneTips": [
+        "Troque auto por Q quando ele estiver sem o escudo.",
+        "Puxe a wave pra torre dele: Malzahar sofre pra farmar embaixo da torre.",
+        "Mate os bichinhos dele; atrasando o farm, o Capítulo Perdido atrasa e ele fica sem dano.",
+        "Cuidado com ult + jungle."
+      ],
+      "onlyTierList": false,
+      "sources": [
+        {
+          "title": "APRENDA COMO JOGAR CONTRA MALZAHAR",
+          "url": "https://www.youtube.com/watch?v=os0ykYIFClk"
+        }
+      ]
+    },
+    {
+      "champion": "Mel",
+      "class": "Mago",
+      "difficulty": 3,
+      "summary": "Muito difícil de matar, mas dá pra farmar tranquilo.",
+      "setup": {
+        "Build": "Botas da Rapidez cedo"
+      },
+      "laneTips": [
+        "Ela vai de Primeiro Ataque: comece a troca com Q.",
+        "Troque no nível 1 quando as waves se chocam.",
+        "Com a bota que pinica, entre no range quando o stun dela estiver em CD.",
+        "Sem mana pro W, ela morre."
+      ],
+      "onlyTierList": false,
+      "sources": [
+        {
+          "title": "Essa build é diferenciada! Vs Mel",
+          "url": "https://www.youtube.com/watch?v=iU-9W-BcTZY"
+        }
+      ]
+    },
+    {
+      "champion": "Morgana",
+      "class": "Suporte",
+      "difficulty": 2,
+      "summary": "Fácil: talvez não mate, mas você dá outscale.",
+      "setup": null,
+      "laneTips": [
+        "Farme e escale."
+      ],
+      "onlyTierList": true,
+      "sources": [
+        {
+          "title": "Tier list",
+          "url": "https://www.youtube.com/watch?v=vbiAtgBtaKs"
+        }
+      ]
+    },
+    {
+      "champion": "Naafiri",
+      "class": "Assassino",
+      "difficulty": 3,
+      "summary": "Chata, mas não chega a difícil. Se ela errar, Ignite e kill.",
+      "setup": {
+        "Build": "Lacre; Sapatos do Feiticeiro cedo"
+      },
+      "laneTips": [
+        "Os cachorros bloqueiam o teu Q.",
+        "Bota cedo ajuda no vai-e-vem da lane.",
+        "Quando ela vem sem vida, kill."
+      ],
+      "onlyTierList": false,
+      "sources": [
+        {
+          "title": "Vladimir vs Naafiri mid",
+          "url": "https://www.youtube.com/watch?v=Vs12LZsHENs"
+        }
+      ]
+    },
+    {
+      "champion": "Neeko",
+      "class": "Mago",
+      "difficulty": 2,
+      "summary": "Fácil hoje em dia.",
+      "setup": null,
+      "laneTips": [
+        "Farme e escale."
+      ],
+      "onlyTierList": true,
+      "sources": [
+        {
+          "title": "Tier list",
+          "url": "https://www.youtube.com/watch?v=vbiAtgBtaKs"
+        }
+      ]
+    },
+    {
+      "champion": "Orianna",
+      "class": "Mago",
+      "difficulty": 5,
+      "summary": "Super boneco; é normal perder por muito. Ele diz que é o maior counter do Vlad hoje.",
+      "setup": null,
+      "laneTips": [
+        "No nível 1 dá pra ganhar a troca, mas não troque perdendo minion.",
+        "O foco é farmar o máximo e lutar depois.",
+        "Sem TP ou flash dela, cobre e jogue agressivo.",
+        "Só dê recall quando não for perder minion."
+      ],
+      "onlyTierList": false,
+      "sources": [
+        {
+          "title": "COMO DOMINAR NA MATCHUP VS ORIANNA",
+          "url": "https://www.youtube.com/watch?v=y37k_9rhd00"
+        }
+      ]
+    },
+    {
+      "champion": "Pantheon",
+      "class": "Lutador",
+      "difficulty": 2,
+      "summary": "Fácil. Use a poça no momento que ele pula em você.",
+      "setup": null,
+      "laneTips": [
+        "Poça no pulo dele (R/W)."
+      ],
+      "onlyTierList": true,
+      "sources": [
+        {
+          "title": "Tier list",
+          "url": "https://www.youtube.com/watch?v=vbiAtgBtaKs"
+        }
+      ]
+    },
+    {
+      "champion": "Pyke",
+      "class": "Suporte",
+      "difficulty": 2,
+      "summary": "Fácil de lidar no mid.",
+      "setup": null,
+      "laneTips": [
+        "Farme e escale."
+      ],
+      "onlyTierList": true,
+      "sources": [
+        {
+          "title": "Tier list",
+          "url": "https://www.youtube.com/watch?v=vbiAtgBtaKs"
+        }
+      ]
+    },
+    {
+      "champion": "Qiyana",
+      "class": "Assassino",
+      "difficulty": 4,
+      "summary": "Difícil; forte na lane e chata depois do primeiro item.",
+      "setup": {
+        "Runa": "Toque Ígneo",
+        "Feitiços": "Flash + Ignite",
+        "Build": "Ápice da Tempestade"
+      },
+      "laneTips": [
+        "O Toque ajuda a achar ela quando fica invisível no mato.",
+        "O pior é antes do primeiro recall.",
+        "Sem poça, jogue recuado.",
+        "Não tenha pressa: ela ganha o 1v1 cedo e você escala."
+      ],
+      "onlyTierList": false,
+      "sources": [
+        {
+          "title": "SOLEI UM MALPHITE… VLAD VS QIYANA",
+          "url": "https://www.youtube.com/watch?v=yBc7zaF2_ZE"
+        }
+      ]
+    },
+    {
+      "champion": "Rumble",
+      "class": "Mago",
+      "difficulty": 2,
+      "summary": "Não é fácil, mas no mid dá pra lidar de boa.",
+      "setup": null,
+      "laneTips": [
+        "Farme e evite a zona do E/R."
+      ],
+      "onlyTierList": true,
+      "sources": [
+        {
+          "title": "Tier list",
+          "url": "https://www.youtube.com/watch?v=vbiAtgBtaKs"
+        }
+      ]
+    },
+    {
+      "champion": "Ryze",
+      "class": "Mago",
+      "difficulty": 5,
+      "summary": "Super boneco; normal perder por muito.",
+      "setup": null,
+      "laneTips": [
+        "Troque quando ele estiver sem mana ou sem stun, pra forçar as poções.",
+        "Não gaste a poça à toa se ele está sem mana.",
+        "Farme e fique com mais level que ele."
+      ],
+      "onlyTierList": false,
+      "sources": [
+        {
+          "title": "Vladimir vs Ryze",
+          "url": "https://www.youtube.com/watch?v=Z0O7YBxoQ38"
+        }
+      ]
+    },
+    {
+      "champion": "Seraphine",
+      "class": "Suporte",
+      "difficulty": 1,
+      "summary": "Ultra fácil: suporte no mid.",
+      "setup": null,
+      "laneTips": [
+        "Pressione a lane."
+      ],
+      "onlyTierList": true,
+      "sources": [
+        {
+          "title": "Tier list",
+          "url": "https://www.youtube.com/watch?v=vbiAtgBtaKs"
+        }
+      ]
+    },
+    {
+      "champion": "Swain",
+      "class": "Mago",
+      "difficulty": 3,
+      "summary": "Mediano, costuma ser de boa.",
+      "setup": null,
+      "laneTips": [
+        "Sem range pra trocar, cure no minion com o Q.",
+        "Wardeie e jogue do lado da ward.",
+        "Sincronize Q vermelho + E + flash no all-in e espere o escudo dele cair antes da ult."
+      ],
+      "onlyTierList": false,
+      "sources": [
+        {
+          "title": "19/0 de Vladimir vs Swain",
+          "url": "https://www.youtube.com/watch?v=qTR-0JLSLcQ"
+        }
+      ]
+    },
+    {
+      "champion": "Sylas",
+      "class": "Lutador",
+      "difficulty": 3,
+      "summary": "Mediano, skill match.",
+      "setup": {
+        "Runa": "Até a Morte + Chamuscar",
+        "Feitiços": "Flash + Ignite",
+        "Build": "Lacre + bota; na frente, Ápice primeiro"
+      },
+      "laneTips": [
+        "Espere a primeira skill dele; desvie da segunda parte do E e devolva com auto + Q.",
+        "Poça no nível 2, usada quando ele solta skill em você.",
+        "A poça no tempo certo cancela a cura do W dele.",
+        "Cuidado com Trovão + Ignite dele quando o E está up."
+      ],
+      "onlyTierList": false,
+      "sources": [
+        {
+          "title": "Gameplay explicativa no MID vs SYLAS",
+          "url": "https://www.youtube.com/watch?v=ssMCyXmT0_o"
+        }
+      ]
+    },
+    {
+      "champion": "Taliyah",
+      "class": "Mago",
+      "difficulty": 4,
+      "summary": "Difícil porque não deixa chegar, mas você farma de boa.",
+      "setup": {
+        "Runa": "Transcendência",
+        "Build": "Botas da Rapidez; Mejai"
+      },
+      "laneTips": [
+        "Não se preocupe em solar: mantenha os recursos.",
+        "Ela empurra rápido e não dá pra contestar o push."
+      ],
+      "onlyTierList": false,
+      "sources": [
+        {
+          "title": "TOP 1 VLAD VS PRO PLAYER - VS TALIYAH",
+          "url": "https://www.youtube.com/watch?v=1FINXdglExQ"
+        }
+      ]
+    },
+    {
+      "champion": "Talon",
+      "class": "Assassino",
+      "difficulty": 3,
+      "summary": "Mediano.",
+      "setup": {
+        "Feitiços": "Flash + Ignite (não Ghost)",
+        "Build": "Anel de Doran ou Lacre"
+      },
+      "laneTips": [
+        "Bata no nível 1 e cuidado com o combo do nível 2.",
+        "Quando ele pular, poça na cara dele.",
+        "Com ele low, puxe a wave: ele farma com medo ou perde minion."
+      ],
+      "onlyTierList": false,
+      "sources": [
+        {
+          "title": "RANK 1 VLAD vs Talon",
+          "url": "https://www.youtube.com/watch?v=2ryCQ03N5zs"
+        }
+      ]
+    },
+    {
+      "champion": "Tristana",
+      "class": "Atirador",
+      "difficulty": 3,
+      "summary": "Mediano; cuidado com o early dela.",
+      "setup": {
+        "Runa": "Aery + Chamuscar",
+        "Feitiços": "Flash + Ignite ou Ghost"
+      },
+      "laneTips": [
+        "Use a poça quando ela grudar a bomba (E): a bomba some.",
+        "Ela quer empurrar e bater na torre; difícil matar na rota."
+      ],
+      "onlyTierList": false,
+      "sources": [
+        {
+          "title": "VLAD VS TRISTANA MID",
+          "url": "https://www.youtube.com/watch?v=o98h5NImQ2s"
+        }
+      ]
+    },
+    {
+      "champion": "Twisted Fate",
+      "class": "Mago",
+      "difficulty": 2,
+      "summary": "Quase ultra fácil: depois do 6 ele só joga mapa.",
+      "setup": null,
+      "laneTips": [
+        "Avise o time quando ele pega 6.",
+        "Na lane é free pra você."
+      ],
+      "onlyTierList": true,
+      "sources": [
+        {
+          "title": "Tier list",
+          "url": "https://www.youtube.com/watch?v=vbiAtgBtaKs"
+        }
+      ]
+    },
+    {
+      "champion": "Varus",
+      "class": "Atirador",
+      "difficulty": 4,
+      "summary": "Muito difícil: bate muito em quem tem vida, mas é vulnerável a gank.",
+      "setup": null,
+      "laneTips": [
+        "Peça ajuda do jungle, ele morre fácil."
+      ],
+      "onlyTierList": true,
+      "sources": [
+        {
+          "title": "Tier list",
+          "url": "https://www.youtube.com/watch?v=vbiAtgBtaKs"
+        }
+      ]
+    },
+    {
+      "champion": "Veigar",
+      "class": "Mago",
+      "difficulty": 2,
+      "summary": "Fácil.",
+      "setup": {
+        "Runa": "Conquistador",
+        "Build": "Bota CDR, depois Ímpeto Cósmico"
+      },
+      "laneTips": [
+        "Troque quando ele gastar skill no minion e estenda.",
+        "Ignite ativa o Manto de Nimbus e te gruda pro Q vermelho.",
+        "Cuidado com a ult dele quando estiver low."
+      ],
+      "onlyTierList": false,
+      "sources": [
+        {
+          "title": "APRENDA COMO VOLTAR NO JOGO VS VEIGAR",
+          "url": "https://www.youtube.com/watch?v=gseTFUCw1Ls"
+        }
+      ]
+    },
+    {
+      "champion": "Vel'Koz",
+      "class": "Mago",
+      "difficulty": 3,
+      "summary": "Mediano por causa do range.",
+      "setup": {
+        "Feitiços": "Flash + Ghost",
+        "Build": "1º back bota de velocidade (obrigatório)"
+      },
+      "laneTips": [
+        "Chegue no nível 1 e troque autos.",
+        "Depois de uma kill, resete em vez de forçar outra.",
+        "Use a poça pra desviar do E.",
+        "Pinique quando ele gastar o Q e saia antes da ult."
+      ],
+      "onlyTierList": false,
+      "sources": [
+        {
+          "title": "Gameplay explicativa vs Velkoz",
+          "url": "https://www.youtube.com/watch?v=Er26tYz7aiQ"
+        }
+      ]
+    },
+    {
+      "champion": "Vex",
+      "class": "Mago",
+      "difficulty": 2,
+      "summary": "Fácil hoje em dia.",
+      "setup": {
+        "Build": "Bota CDR cedo"
+      },
+      "laneTips": [
+        "A passiva dela tem CD médio (~3s): ande pra frente logo depois que ela gastar.",
+        "Poça no 2; quando ela tentar o fear, poça (dano e cura nos minions).",
+        "Quem mata os 2 minions guerreiros da wave de catapa primeiro chega no 3 antes.",
+        "Entre na poça faltando 2s pro Q e saia dando Q."
+      ],
+      "onlyTierList": false,
+      "sources": [
+        {
+          "title": "TUTORIAL VLADIMIR VS VEX",
+          "url": "https://www.youtube.com/watch?v=Hs4AskaK1IQ"
+        }
+      ]
+    },
+    {
+      "champion": "Viktor",
+      "class": "Mago",
+      "difficulty": 5,
+      "summary": "Um dos mais fortes contra o Vlad.",
+      "setup": {
+        "Runa": "Avanço da Tempestade/Tempestade Crescente ou Conquistador",
+        "Build": "Rocketbelt (no vídeo aparece o antigo Protobelt); bota CDR cedo"
+      },
+      "laneTips": [
+        "Respeite e farme; vá pra cima quando ele gastar o Q.",
+        "Q vermelho contra o Q dele empata; Q normal contra o dele perde.",
+        "Puna quando ele voltar de TP e ainda não tem bota."
+      ],
+      "onlyTierList": false,
+      "sources": [
+        {
+          "title": "COMO SE COMPORTAR NA COUNTER MATCH? VS VIKTOR",
+          "url": "https://www.youtube.com/watch?v=vqdO53NdLyw"
+        }
+      ]
+    },
+    {
+      "champion": "Xerath",
+      "class": "Mago",
+      "difficulty": 3,
+      "summary": "Mediano por causa do range.",
+      "setup": null,
+      "laneTips": [
+        "Normalmente é só farmar.",
+        "Depois do primeiro item, se ele gastar o E, ande reto e mate.",
+        "Use o Q vermelho pra ele perder XP e pegue 6 bem antes.",
+        "Quando ele volta de TP sem poção, combo com R."
+      ],
+      "onlyTierList": false,
+      "sources": [
+        {
+          "title": "VLAD VS XERATH",
+          "url": "https://www.youtube.com/watch?v=WFpOodPF1ME"
+        }
+      ]
+    },
+    {
+      "champion": "Yasuo",
+      "class": "Lutador",
+      "difficulty": 3,
+      "summary": "Skill match; mais difícil que o Yone porque o E tem CD baixo.",
+      "setup": {
+        "Runa": "Toque Ígneo"
+      },
+      "laneTips": [
+        "Ele costuma começar de E: dê um auto pra tirar o escudo e devolva com Q.",
+        "Mesmo perdendo a troca, teu sustain compensa.",
+        "Freeze perto da tua torre deixa ele desconfortável.",
+        "Respeite muito quando ele tem ult + flash + ignite e você está sem poça."
+      ],
+      "onlyTierList": false,
+      "sources": [
+        {
+          "title": "Essa runa é muito forte pro early… vs Yasuo",
+          "url": "https://www.youtube.com/watch?v=XWKdCgtw5gU"
+        }
+      ]
+    },
+    {
+      "champion": "Yone",
+      "class": "Lutador",
+      "difficulty": 2,
+      "summary": "Fácil; só complica quando ele fecha item e vem te dar autos.",
+      "setup": {
+        "Runa": "Toque Ígneo"
+      },
+      "laneTips": [
+        "Poça no E ou no R dele.",
+        "Dive no limite quando ele estiver low."
+      ],
+      "onlyTierList": false,
+      "sources": [
+        {
+          "title": "Aprenda ganhar de YONE",
+          "url": "https://www.youtube.com/watch?v=LgAp1r8NJMU"
+        }
+      ]
+    },
+    {
+      "champion": "Zed",
+      "class": "Assassino",
+      "difficulty": 3,
+      "summary": "Mediano: fica muito forte ao fechar o primeiro item, mas a poça cancela a ult.",
+      "setup": {
+        "Runa": "Toque Ígneo",
+        "Feitiços": "Flash + Ignite",
+        "Build": "Ápice da Tempestade"
+      },
+      "laneTips": [
+        "Early é farmar e esperar gank.",
+        "Puna quando ele gasta a sombra: o W tem CD alto.",
+        "Depois do 6, guarde a poça pra cancelar a ult."
+      ],
+      "onlyTierList": false,
+      "sources": [
+        {
+          "title": "A MELHOR BUILD CONTRA ZED",
+          "url": "https://www.youtube.com/watch?v=6oR0yioRrwk"
+        }
+      ]
+    },
+    {
+      "champion": "Ziggs",
+      "class": "Mago",
+      "difficulty": 2,
+      "summary": "Fácil: é matchup de poke, ele não quer interação.",
+      "setup": null,
+      "laneTips": [
+        "Desvie das bombas e farme mais que ele.",
+        "Ele de TP abre janela de kill.",
+        "Freeze perto da tua torre deixa a lane segura."
+      ],
+      "onlyTierList": false,
+      "sources": [
+        {
+          "title": "APRENDA COMO JOGAR CONTRA ZIGGS",
+          "url": "https://www.youtube.com/watch?v=u-SgFmT1HWQ"
+        }
+      ]
+    },
+    {
+      "champion": "Zilean",
+      "class": "Suporte",
+      "difficulty": 3,
+      "summary": "Fácil de farmar, mas quando ele fica te dando slow você não alcança mais.",
+      "setup": null,
+      "laneTips": [
+        "Farme e escale."
+      ],
+      "onlyTierList": true,
+      "sources": [
+        {
+          "title": "Tier list",
+          "url": "https://www.youtube.com/watch?v=vbiAtgBtaKs"
+        }
+      ]
+    },
+    {
+      "champion": "Zoe",
+      "class": "Mago",
+      "difficulty": 5,
+      "summary": "No mesmo nível, o Vlad não ganha. Muito forte no early.",
+      "setup": {
+        "Runa": "Toque Ígneo + velocidade (Celeridade)",
+        "Build": "Bota CDR no primeiro back"
+      },
+      "laneTips": [
+        "Sem poça, respeite muito: um E + Q te mata ou deixa com 50 de vida.",
+        "A bolha tem CD alto, mas a tua poça tem CD maior.",
+        "Com ela low e sem TP, mantenha na lane e ganhe no sustain."
+      ],
+      "onlyTierList": false,
+      "sources": [
+        {
+          "title": "DESTRUINDO UMA ZOE NO MID",
+          "url": "https://www.youtube.com/watch?v=MU89UG_Jb1Q"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6851 @@
+{
+ "patch": "16.19",
+ "version": "16.19.1",
+ "generatedAt": "2026-09-30T00:43:58.144Z",
+ "platforms": [
+  "br1",
+  "kr",
+  "euw1",
+  "na1"
+ ],
+ "tier": "Mestre+",
+ "days": 21,
+ "overall": {
+  "games": 616,
+  "wins": 295,
+  "keystones": [
+   {
+    "key": "8230",
+    "name": "Avanço da Tempestade",
+    "games": 478,
+    "wins": 236
+   },
+   {
+    "key": "8992",
+    "name": "Toque Ígneo",
+    "games": 94,
+    "wins": 37
+   },
+   {
+    "key": "8010",
+    "name": "Conquistador",
+    "games": 25,
+    "wins": 11
+   }
+  ],
+  "secondary": [
+   {
+    "key": "8000",
+    "name": "Precisão",
+    "games": 520,
+    "wins": 252
+   },
+   {
+    "key": "8400",
+    "name": "Determinação",
+    "games": 42,
+    "wins": 19
+   }
+  ],
+  "spells": [
+   {
+    "key": "4+6",
+    "name": "Flash + Fantasma",
+    "games": 512,
+    "wins": 252
+   },
+   {
+    "key": "4+14",
+    "name": "Flash + Incendiar",
+    "games": 98,
+    "wins": 41
+   },
+   {
+    "key": "4+12",
+    "name": "Flash + Teleporte",
+    "games": 4,
+    "wins": 1
+   }
+  ],
+  "items": [
+   {
+    "key": "4646",
+    "name": "Ápice da Tempestade",
+    "games": 370,
+    "wins": 183
+   },
+   {
+    "key": "3089",
+    "name": "Capuz da Morte de Rabadon",
+    "games": 318,
+    "wins": 178
+   },
+   {
+    "key": "4629",
+    "name": "Ímpeto Cósmico",
+    "games": 144,
+    "wins": 79
+   },
+   {
+    "key": "3152",
+    "name": "Explocinturão Hextec",
+    "games": 136,
+    "wins": 59
+   },
+   {
+    "key": "3135",
+    "name": "Cajado do Vazio",
+    "games": 124,
+    "wins": 68
+   },
+   {
+    "key": "6653",
+    "name": "Tormento de Liandry",
+    "games": 119,
+    "wins": 64
+   }
+  ],
+  "boots": [
+   {
+    "key": "3175",
+    "name": "Sapatos Enfeitiçados",
+    "games": 367,
+    "wins": 179
+   },
+   {
+    "key": "3171",
+    "name": "Lucidez Escarlate",
+    "games": 183,
+    "wins": 84
+   },
+   {
+    "key": "3170",
+    "name": "Marcha Célere",
+    "games": 41,
+    "wins": 24
+   }
+  ]
+ },
+ "vs": {
+  "Irelia": {
+   "games": 4,
+   "wins": 1,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 3,
+     "wins": 0
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 3,
+     "wins": 0
+    },
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 3,
+     "wins": 0
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 3,
+     "wins": 0
+    },
+    {
+     "key": "3135",
+     "name": "Cajado do Vazio",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "3152",
+     "name": "Explocinturão Hextec",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Ekko": {
+   "games": 10,
+   "wins": 6,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 9,
+     "wins": 6
+    },
+    {
+     "key": "8992",
+     "name": "Toque Ígneo",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 9,
+     "wins": 6
+    },
+    {
+     "key": "8400",
+     "name": "Determinação",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 9,
+     "wins": 6
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 7,
+     "wins": 5
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 6,
+     "wins": 4
+    },
+    {
+     "key": "4633",
+     "name": "Criafendas",
+     "games": 3,
+     "wins": 3
+    },
+    {
+     "key": "3152",
+     "name": "Explocinturão Hextec",
+     "games": 3,
+     "wins": 2
+    },
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "3157",
+     "name": "Ampulheta de Zhonya",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 5,
+     "wins": 4
+    },
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 4,
+     "wins": 2
+    }
+   ]
+  },
+  "Ryze": {
+   "games": 20,
+   "wins": 7,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 16,
+     "wins": 6
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "8214",
+     "name": "Invocar Aery",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 16,
+     "wins": 7
+    },
+    {
+     "key": "8300",
+     "name": "Inspiração",
+     "games": 2,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 19,
+     "wins": 6
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 12,
+     "wins": 3
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 12,
+     "wins": 5
+    },
+    {
+     "key": "3135",
+     "name": "Cajado do Vazio",
+     "games": 5,
+     "wins": 3
+    },
+    {
+     "key": "4633",
+     "name": "Criafendas",
+     "games": 4,
+     "wins": 1
+    },
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 4,
+     "wins": 2
+    },
+    {
+     "key": "3137",
+     "name": "Criptoflora",
+     "games": 4,
+     "wins": 2
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 17,
+     "wins": 7
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 3,
+     "wins": 0
+    }
+   ]
+  },
+  "Viktor": {
+   "games": 29,
+   "wins": 15,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 26,
+     "wins": 14
+    },
+    {
+     "key": "8214",
+     "name": "Invocar Aery",
+     "games": 3,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 17,
+     "wins": 9
+    },
+    {
+     "key": "8400",
+     "name": "Determinação",
+     "games": 10,
+     "wins": 6
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 29,
+     "wins": 15
+    }
+   ],
+   "items": [
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 15,
+     "wins": 10
+    },
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 14,
+     "wins": 7
+    },
+    {
+     "key": "3152",
+     "name": "Explocinturão Hextec",
+     "games": 9,
+     "wins": 5
+    },
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 7,
+     "wins": 4
+    },
+    {
+     "key": "3135",
+     "name": "Cajado do Vazio",
+     "games": 6,
+     "wins": 3
+    },
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 4,
+     "wins": 2
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 16,
+     "wins": 7
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 11,
+     "wins": 7
+    },
+    {
+     "key": "3170",
+     "name": "Marcha Célere",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "TwistedFate": {
+   "games": 19,
+   "wins": 7,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 13,
+     "wins": 4
+    },
+    {
+     "key": "8992",
+     "name": "Toque Ígneo",
+     "games": 6,
+     "wins": 3
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 19,
+     "wins": 7
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 12,
+     "wins": 3
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 7,
+     "wins": 4
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 11,
+     "wins": 3
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 10,
+     "wins": 5
+    },
+    {
+     "key": "3152",
+     "name": "Explocinturão Hextec",
+     "games": 4,
+     "wins": 2
+    },
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 4,
+     "wins": 1
+    },
+    {
+     "key": "4633",
+     "name": "Criafendas",
+     "games": 3,
+     "wins": 2
+    },
+    {
+     "key": "4645",
+     "name": "Chama Sombria",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 14,
+     "wins": 4
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "3170",
+     "name": "Marcha Célere",
+     "games": 2,
+     "wins": 1
+    }
+   ]
+  },
+  "Orianna": {
+   "games": 14,
+   "wins": 5,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 13,
+     "wins": 5
+    },
+    {
+     "key": "8992",
+     "name": "Toque Ígneo",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8400",
+     "name": "Determinação",
+     "games": 7,
+     "wins": 3
+    },
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 6,
+     "wins": 2
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 14,
+     "wins": 5
+    }
+   ],
+   "items": [
+    {
+     "key": "3152",
+     "name": "Explocinturão Hextec",
+     "games": 7,
+     "wins": 3
+    },
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 6,
+     "wins": 3
+    },
+    {
+     "key": "3135",
+     "name": "Cajado do Vazio",
+     "games": 6,
+     "wins": 2
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 6,
+     "wins": 2
+    },
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 3,
+     "wins": 0
+    },
+    {
+     "key": "4633",
+     "name": "Criafendas",
+     "games": 2,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 5,
+     "wins": 3
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 5,
+     "wins": 1
+    },
+    {
+     "key": "3170",
+     "name": "Marcha Célere",
+     "games": 2,
+     "wins": 0
+    }
+   ]
+  },
+  "Galio": {
+   "games": 15,
+   "wins": 8,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 8,
+     "wins": 5
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 4,
+     "wins": 2
+    },
+    {
+     "key": "8992",
+     "name": "Toque Ígneo",
+     "games": 3,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 11,
+     "wins": 6
+    },
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 4,
+     "wins": 2
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 14,
+     "wins": 7
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 8,
+     "wins": 4
+    },
+    {
+     "key": "4633",
+     "name": "Criafendas",
+     "games": 7,
+     "wins": 4
+    },
+    {
+     "key": "3152",
+     "name": "Explocinturão Hextec",
+     "games": 6,
+     "wins": 2
+    },
+    {
+     "key": "3135",
+     "name": "Cajado do Vazio",
+     "games": 4,
+     "wins": 2
+    },
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 4,
+     "wins": 2
+    },
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 3,
+     "wins": 2
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 9,
+     "wins": 6
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 5,
+     "wins": 2
+    },
+    {
+     "key": "3170",
+     "name": "Marcha Célere",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Malzahar": {
+   "games": 14,
+   "wins": 5,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 11,
+     "wins": 3
+    },
+    {
+     "key": "8992",
+     "name": "Toque Ígneo",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "8214",
+     "name": "Invocar Aery",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 10,
+     "wins": 3
+    },
+    {
+     "key": "8300",
+     "name": "Inspiração",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 13,
+     "wins": 5
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 9,
+     "wins": 3
+    },
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 8,
+     "wins": 4
+    },
+    {
+     "key": "3152",
+     "name": "Explocinturão Hextec",
+     "games": 6,
+     "wins": 1
+    },
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 4,
+     "wins": 2
+    },
+    {
+     "key": "3137",
+     "name": "Criptoflora",
+     "games": 3,
+     "wins": 0
+    },
+    {
+     "key": "4633",
+     "name": "Criafendas",
+     "games": 2,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 8,
+     "wins": 5
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 4,
+     "wins": 0
+    },
+    {
+     "key": "3170",
+     "name": "Marcha Célere",
+     "games": 2,
+     "wins": 0
+    }
+   ]
+  },
+  "Fizz": {
+   "games": 12,
+   "wins": 8,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 8,
+     "wins": 6
+    },
+    {
+     "key": "8992",
+     "name": "Toque Ígneo",
+     "games": 4,
+     "wins": 2
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 11,
+     "wins": 7
+    },
+    {
+     "key": "8400",
+     "name": "Determinação",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 7,
+     "wins": 6
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 5,
+     "wins": 2
+    }
+   ],
+   "items": [
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 8,
+     "wins": 7
+    },
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 8,
+     "wins": 6
+    },
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 4,
+     "wins": 2
+    },
+    {
+     "key": "3135",
+     "name": "Cajado do Vazio",
+     "games": 4,
+     "wins": 4
+    },
+    {
+     "key": "3157",
+     "name": "Ampulheta de Zhonya",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "3152",
+     "name": "Explocinturão Hextec",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 7,
+     "wins": 6
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "3173",
+     "name": "Esmagadores Acorrentados",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Veigar": {
+   "games": 5,
+   "wins": 2,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 4,
+     "wins": 2
+    },
+    {
+     "key": "8992",
+     "name": "Toque Ígneo",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 4,
+     "wins": 2
+    },
+    {
+     "key": "8300",
+     "name": "Inspiração",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 5,
+     "wins": 2
+    }
+   ],
+   "items": [
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 3,
+     "wins": 2
+    },
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "4645",
+     "name": "Chama Sombria",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "4628",
+     "name": "Foco do Horizonte",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 2,
+     "wins": 1
+    }
+   ]
+  },
+  "Yone": {
+   "games": 24,
+   "wins": 8,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 14,
+     "wins": 7
+    },
+    {
+     "key": "8992",
+     "name": "Toque Ígneo",
+     "games": 7,
+     "wins": 1
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 2,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 19,
+     "wins": 8
+    },
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 2,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 17,
+     "wins": 8
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 7,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 15,
+     "wins": 4
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 12,
+     "wins": 4
+    },
+    {
+     "key": "3152",
+     "name": "Explocinturão Hextec",
+     "games": 5,
+     "wins": 1
+    },
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 4,
+     "wins": 3
+    },
+    {
+     "key": "3135",
+     "name": "Cajado do Vazio",
+     "games": 4,
+     "wins": 2
+    },
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 4,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 11,
+     "wins": 4
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 10,
+     "wins": 3
+    },
+    {
+     "key": "3170",
+     "name": "Marcha Célere",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Jayce": {
+   "games": 8,
+   "wins": 3,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 6,
+     "wins": 2
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "8992",
+     "name": "Toque Ígneo",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 7,
+     "wins": 2
+    },
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 6,
+     "wins": 3
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 2,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 5,
+     "wins": 1
+    },
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 4,
+     "wins": 1
+    },
+    {
+     "key": "3152",
+     "name": "Explocinturão Hextec",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "3157",
+     "name": "Ampulheta de Zhonya",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 6,
+     "wins": 2
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 2,
+     "wins": 1
+    }
+   ]
+  },
+  "Nunu": {
+   "games": 3,
+   "wins": 3,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 3,
+     "wins": 3
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 3,
+     "wins": 3
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 3,
+     "wins": 3
+    }
+   ],
+   "items": [
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "3135",
+     "name": "Cajado do Vazio",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "3152",
+     "name": "Explocinturão Hextec",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "3170",
+     "name": "Marcha Célere",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Zoe": {
+   "games": 16,
+   "wins": 10,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 13,
+     "wins": 8
+    },
+    {
+     "key": "8992",
+     "name": "Toque Ígneo",
+     "games": 3,
+     "wins": 2
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 13,
+     "wins": 8
+    },
+    {
+     "key": "8400",
+     "name": "Determinação",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 15,
+     "wins": 9
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 9,
+     "wins": 5
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 8,
+     "wins": 7
+    },
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 6,
+     "wins": 5
+    },
+    {
+     "key": "3135",
+     "name": "Cajado do Vazio",
+     "games": 5,
+     "wins": 3
+    },
+    {
+     "key": "4633",
+     "name": "Criafendas",
+     "games": 3,
+     "wins": 3
+    },
+    {
+     "key": "3152",
+     "name": "Explocinturão Hextec",
+     "games": 3,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 9,
+     "wins": 4
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 4,
+     "wins": 3
+    },
+    {
+     "key": "3170",
+     "name": "Marcha Célere",
+     "games": 3,
+     "wins": 3
+    }
+   ]
+  },
+  "Smolder": {
+   "games": 2,
+   "wins": 1,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "8300",
+     "name": "Inspiração",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 2,
+     "wins": 1
+    }
+   ]
+  },
+  "KogMaw": {
+   "games": 7,
+   "wins": 3,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 7,
+     "wins": 3
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 7,
+     "wins": 3
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 6,
+     "wins": 2
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 5,
+     "wins": 2
+    },
+    {
+     "key": "3135",
+     "name": "Cajado do Vazio",
+     "games": 4,
+     "wins": 3
+    },
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 3,
+     "wins": 2
+    },
+    {
+     "key": "4645",
+     "name": "Chama Sombria",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "3152",
+     "name": "Explocinturão Hextec",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "3137",
+     "name": "Criptoflora",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 7,
+     "wins": 3
+    }
+   ]
+  },
+  "Gragas": {
+   "games": 4,
+   "wins": 2,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 4,
+     "wins": 2
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 4,
+     "wins": 2
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 4,
+     "wins": 2
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 3,
+     "wins": 2
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "3152",
+     "name": "Explocinturão Hextec",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "4645",
+     "name": "Chama Sombria",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3170",
+     "name": "Marcha Célere",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Ahri": {
+   "games": 23,
+   "wins": 12,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 22,
+     "wins": 11
+    },
+    {
+     "key": "8992",
+     "name": "Toque Ígneo",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 19,
+     "wins": 12
+    },
+    {
+     "key": "8400",
+     "name": "Determinação",
+     "games": 3,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 19,
+     "wins": 11
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 4,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 16,
+     "wins": 8
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 8,
+     "wins": 4
+    },
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 7,
+     "wins": 4
+    },
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 6,
+     "wins": 4
+    },
+    {
+     "key": "3135",
+     "name": "Cajado do Vazio",
+     "games": 4,
+     "wins": 3
+    },
+    {
+     "key": "3152",
+     "name": "Explocinturão Hextec",
+     "games": 3,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 12,
+     "wins": 5
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 5,
+     "wins": 2
+    },
+    {
+     "key": "3170",
+     "name": "Marcha Célere",
+     "games": 5,
+     "wins": 5
+    }
+   ]
+  },
+  "Katarina": {
+   "games": 17,
+   "wins": 6,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 11,
+     "wins": 4
+    },
+    {
+     "key": "8992",
+     "name": "Toque Ígneo",
+     "games": 5,
+     "wins": 2
+    },
+    {
+     "key": "8214",
+     "name": "Invocar Aery",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 16,
+     "wins": 6
+    },
+    {
+     "key": "8300",
+     "name": "Inspiração",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 16,
+     "wins": 5
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 11,
+     "wins": 4
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 10,
+     "wins": 5
+    },
+    {
+     "key": "3135",
+     "name": "Cajado do Vazio",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "3137",
+     "name": "Criptoflora",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 15,
+     "wins": 4
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3170",
+     "name": "Marcha Célere",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Azir": {
+   "games": 8,
+   "wins": 5,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 4,
+     "wins": 3
+    },
+    {
+     "key": "8992",
+     "name": "Toque Ígneo",
+     "games": 4,
+     "wins": 2
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 7,
+     "wins": 4
+    },
+    {
+     "key": "8400",
+     "name": "Determinação",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 6,
+     "wins": 4
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 6,
+     "wins": 4
+    },
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 5,
+     "wins": 2
+    },
+    {
+     "key": "3137",
+     "name": "Criptoflora",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "3157",
+     "name": "Ampulheta de Zhonya",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 5,
+     "wins": 4
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 3,
+     "wins": 1
+    }
+   ]
+  },
+  "Akali": {
+   "games": 15,
+   "wins": 6,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 11,
+     "wins": 6
+    },
+    {
+     "key": "8992",
+     "name": "Toque Ígneo",
+     "games": 4,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 15,
+     "wins": 6
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 12,
+     "wins": 6
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 11,
+     "wins": 4
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 8,
+     "wins": 3
+    },
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 3,
+     "wins": 2
+    },
+    {
+     "key": "3135",
+     "name": "Cajado do Vazio",
+     "games": 3,
+     "wins": 2
+    },
+    {
+     "key": "4645",
+     "name": "Chama Sombria",
+     "games": 3,
+     "wins": 2
+    },
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 3,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 11,
+     "wins": 5
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "3170",
+     "name": "Marcha Célere",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Aurora": {
+   "games": 12,
+   "wins": 4,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 10,
+     "wins": 3
+    },
+    {
+     "key": "8992",
+     "name": "Toque Ígneo",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 11,
+     "wins": 4
+    },
+    {
+     "key": "8400",
+     "name": "Determinação",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 8,
+     "wins": 4
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 3,
+     "wins": 0
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 7,
+     "wins": 2
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 6,
+     "wins": 4
+    },
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "3135",
+     "name": "Cajado do Vazio",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "3152",
+     "name": "Explocinturão Hextec",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 6,
+     "wins": 3
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 5,
+     "wins": 0
+    },
+    {
+     "key": "3170",
+     "name": "Marcha Célere",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Locke": {
+   "games": 31,
+   "wins": 16,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 28,
+     "wins": 15
+    },
+    {
+     "key": "8992",
+     "name": "Toque Ígneo",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "8214",
+     "name": "Invocar Aery",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 30,
+     "wins": 16
+    },
+    {
+     "key": "8400",
+     "name": "Determinação",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 28,
+     "wins": 15
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 3,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 20,
+     "wins": 10
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 16,
+     "wins": 9
+    },
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 7,
+     "wins": 4
+    },
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 7,
+     "wins": 5
+    },
+    {
+     "key": "3135",
+     "name": "Cajado do Vazio",
+     "games": 4,
+     "wins": 2
+    },
+    {
+     "key": "3152",
+     "name": "Explocinturão Hextec",
+     "games": 4,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 25,
+     "wins": 13
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 4,
+     "wins": 3
+    },
+    {
+     "key": "3173",
+     "name": "Esmagadores Acorrentados",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Syndra": {
+   "games": 27,
+   "wins": 11,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 25,
+     "wins": 10
+    },
+    {
+     "key": "8992",
+     "name": "Toque Ígneo",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 20,
+     "wins": 8
+    },
+    {
+     "key": "8400",
+     "name": "Determinação",
+     "games": 4,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 24,
+     "wins": 10
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 3,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 21,
+     "wins": 10
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 13,
+     "wins": 4
+    },
+    {
+     "key": "3152",
+     "name": "Explocinturão Hextec",
+     "games": 7,
+     "wins": 3
+    },
+    {
+     "key": "3135",
+     "name": "Cajado do Vazio",
+     "games": 7,
+     "wins": 2
+    },
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 5,
+     "wins": 2
+    },
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 5,
+     "wins": 2
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 16,
+     "wins": 6
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 9,
+     "wins": 4
+    },
+    {
+     "key": "3173",
+     "name": "Esmagadores Acorrentados",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Pantheon": {
+   "games": 4,
+   "wins": 2,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "8992",
+     "name": "Toque Ígneo",
+     "games": 2,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 4,
+     "wins": 2
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 3,
+     "wins": 2
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 3,
+     "wins": 2
+    },
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "4633",
+     "name": "Criafendas",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "3157",
+     "name": "Ampulheta de Zhonya",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 3,
+     "wins": 2
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Nasus": {
+   "games": 15,
+   "wins": 7,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 9,
+     "wins": 5
+    },
+    {
+     "key": "8992",
+     "name": "Toque Ígneo",
+     "games": 4,
+     "wins": 0
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 13,
+     "wins": 5
+    },
+    {
+     "key": "8300",
+     "name": "Inspiração",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 10,
+     "wins": 6
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 5,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 7,
+     "wins": 3
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 6,
+     "wins": 4
+    },
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 6,
+     "wins": 2
+    },
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 5,
+     "wins": 2
+    },
+    {
+     "key": "3135",
+     "name": "Cajado do Vazio",
+     "games": 5,
+     "wins": 2
+    },
+    {
+     "key": "3152",
+     "name": "Explocinturão Hextec",
+     "games": 4,
+     "wins": 2
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 6,
+     "wins": 5
+    },
+    {
+     "key": "3170",
+     "name": "Marcha Célere",
+     "games": 5,
+     "wins": 1
+    },
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 4,
+     "wins": 1
+    }
+   ]
+  },
+  "Cassiopeia": {
+   "games": 9,
+   "wins": 3,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 9,
+     "wins": 3
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 8,
+     "wins": 2
+    },
+    {
+     "key": "8300",
+     "name": "Inspiração",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 8,
+     "wins": 2
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 7,
+     "wins": 3
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 5,
+     "wins": 3
+    },
+    {
+     "key": "3135",
+     "name": "Cajado do Vazio",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "3152",
+     "name": "Explocinturão Hextec",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 5,
+     "wins": 1
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 4,
+     "wins": 2
+    }
+   ]
+  },
+  "AurelionSol": {
+   "games": 10,
+   "wins": 4,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 9,
+     "wins": 3
+    },
+    {
+     "key": "8214",
+     "name": "Invocar Aery",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 9,
+     "wins": 3
+    },
+    {
+     "key": "8300",
+     "name": "Inspiração",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 8,
+     "wins": 3
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "6+14",
+     "name": "Fantasma + Incendiar",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 6,
+     "wins": 2
+    },
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 6,
+     "wins": 3
+    },
+    {
+     "key": "3135",
+     "name": "Cajado do Vazio",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "3152",
+     "name": "Explocinturão Hextec",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "3157",
+     "name": "Ampulheta de Zhonya",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 6,
+     "wins": 3
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 4,
+     "wins": 1
+    }
+   ]
+  },
+  "Talon": {
+   "games": 13,
+   "wins": 8,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 11,
+     "wins": 6
+    },
+    {
+     "key": "8992",
+     "name": "Toque Ígneo",
+     "games": 2,
+     "wins": 2
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 13,
+     "wins": 8
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 11,
+     "wins": 6
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 2,
+     "wins": 2
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 9,
+     "wins": 4
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 6,
+     "wins": 5
+    },
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 4,
+     "wins": 2
+    },
+    {
+     "key": "3152",
+     "name": "Explocinturão Hextec",
+     "games": 4,
+     "wins": 3
+    },
+    {
+     "key": "3157",
+     "name": "Ampulheta de Zhonya",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 2,
+     "wins": 2
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 8,
+     "wins": 4
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 3,
+     "wins": 2
+    }
+   ]
+  },
+  "Leblanc": {
+   "games": 6,
+   "wins": 3,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 4,
+     "wins": 3
+    },
+    {
+     "key": "8214",
+     "name": "Invocar Aery",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "8992",
+     "name": "Toque Ígneo",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 5,
+     "wins": 3
+    },
+    {
+     "key": "8400",
+     "name": "Determinação",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 5,
+     "wins": 3
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 6,
+     "wins": 3
+    },
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "3152",
+     "name": "Explocinturão Hextec",
+     "games": 3,
+     "wins": 3
+    },
+    {
+     "key": "3135",
+     "name": "Cajado do Vazio",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "3157",
+     "name": "Ampulheta de Zhonya",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 3,
+     "wins": 2
+    },
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "3170",
+     "name": "Marcha Célere",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Zed": {
+   "games": 24,
+   "wins": 13,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 20,
+     "wins": 10
+    },
+    {
+     "key": "8992",
+     "name": "Toque Ígneo",
+     "games": 4,
+     "wins": 3
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 22,
+     "wins": 12
+    },
+    {
+     "key": "8300",
+     "name": "Inspiração",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 20,
+     "wins": 10
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 4,
+     "wins": 3
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 14,
+     "wins": 8
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 9,
+     "wins": 7
+    },
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 7,
+     "wins": 4
+    },
+    {
+     "key": "3152",
+     "name": "Explocinturão Hextec",
+     "games": 6,
+     "wins": 3
+    },
+    {
+     "key": "3135",
+     "name": "Cajado do Vazio",
+     "games": 5,
+     "wins": 2
+    },
+    {
+     "key": "3157",
+     "name": "Ampulheta de Zhonya",
+     "games": 5,
+     "wins": 4
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 16,
+     "wins": 7
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 6,
+     "wins": 5
+    },
+    {
+     "key": "3170",
+     "name": "Marcha Célere",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Viego": {
+   "games": 2,
+   "wins": 1,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "3135",
+     "name": "Cajado do Vazio",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 2,
+     "wins": 1
+    }
+   ]
+  },
+  "Lux": {
+   "games": 4,
+   "wins": 2,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "8214",
+     "name": "Invocar Aery",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 4,
+     "wins": 2
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 4,
+     "wins": 2
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "4645",
+     "name": "Chama Sombria",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3135",
+     "name": "Cajado do Vazio",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3170",
+     "name": "Marcha Célere",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Tristana": {
+   "games": 9,
+   "wins": 2,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 6,
+     "wins": 2
+    },
+    {
+     "key": "8992",
+     "name": "Toque Ígneo",
+     "games": 3,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 8,
+     "wins": 1
+    },
+    {
+     "key": "8400",
+     "name": "Determinação",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 6,
+     "wins": 2
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 3,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 6,
+     "wins": 2
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 5,
+     "wins": 1
+    },
+    {
+     "key": "3152",
+     "name": "Explocinturão Hextec",
+     "games": 4,
+     "wins": 0
+    },
+    {
+     "key": "4633",
+     "name": "Criafendas",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "3135",
+     "name": "Cajado do Vazio",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 4,
+     "wins": 1
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 4,
+     "wins": 0
+    },
+    {
+     "key": "3170",
+     "name": "Marcha Célere",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Yasuo": {
+   "games": 18,
+   "wins": 7,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 13,
+     "wins": 4
+    },
+    {
+     "key": "8992",
+     "name": "Toque Ígneo",
+     "games": 3,
+     "wins": 3
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 2,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 15,
+     "wins": 6
+    },
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 2,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 17,
+     "wins": 6
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 10,
+     "wins": 4
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 8,
+     "wins": 5
+    },
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 7,
+     "wins": 4
+    },
+    {
+     "key": "4633",
+     "name": "Criafendas",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "3135",
+     "name": "Cajado do Vazio",
+     "games": 3,
+     "wins": 2
+    },
+    {
+     "key": "4645",
+     "name": "Chama Sombria",
+     "games": 2,
+     "wins": 2
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 9,
+     "wins": 4
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 7,
+     "wins": 3
+    }
+   ]
+  },
+  "Twitch": {
+   "games": 2,
+   "wins": 0,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 2,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 2,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "3152",
+     "name": "Explocinturão Hextec",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Aatrox": {
+   "games": 1,
+   "wins": 1,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Riven": {
+   "games": 4,
+   "wins": 2,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 2,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "3152",
+     "name": "Explocinturão Hextec",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "4633",
+     "name": "Criafendas",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Vex": {
+   "games": 5,
+   "wins": 3,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 4,
+     "wins": 2
+    },
+    {
+     "key": "8992",
+     "name": "Toque Ígneo",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 5,
+     "wins": 3
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 4,
+     "wins": 2
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 4,
+     "wins": 2
+    },
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 3,
+     "wins": 2
+    },
+    {
+     "key": "3135",
+     "name": "Cajado do Vazio",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "3152",
+     "name": "Explocinturão Hextec",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 3,
+     "wins": 2
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Kassadin": {
+   "games": 19,
+   "wins": 8,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 8,
+     "wins": 2
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 5,
+     "wins": 2
+    },
+    {
+     "key": "8992",
+     "name": "Toque Ígneo",
+     "games": 4,
+     "wins": 3
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 13,
+     "wins": 6
+    },
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 5,
+     "wins": 2
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 14,
+     "wins": 6
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 5,
+     "wins": 2
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 9,
+     "wins": 2
+    },
+    {
+     "key": "4633",
+     "name": "Criafendas",
+     "games": 7,
+     "wins": 5
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 6,
+     "wins": 4
+    },
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 4,
+     "wins": 3
+    },
+    {
+     "key": "3135",
+     "name": "Cajado do Vazio",
+     "games": 4,
+     "wins": 2
+    },
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 4,
+     "wins": 2
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 12,
+     "wins": 5
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 7,
+     "wins": 3
+    }
+   ]
+  },
+  "Lissandra": {
+   "games": 14,
+   "wins": 7,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 13,
+     "wins": 7
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 13,
+     "wins": 7
+    },
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 13,
+     "wins": 7
+    },
+    {
+     "key": "1+4",
+     "name": "Purificar + Flash",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 10,
+     "wins": 7
+    },
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 7,
+     "wins": 2
+    },
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 5,
+     "wins": 4
+    },
+    {
+     "key": "3135",
+     "name": "Cajado do Vazio",
+     "games": 4,
+     "wins": 3
+    },
+    {
+     "key": "3152",
+     "name": "Explocinturão Hextec",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "4628",
+     "name": "Foco do Horizonte",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 7,
+     "wins": 3
+    },
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 5,
+     "wins": 4
+    },
+    {
+     "key": "3173",
+     "name": "Esmagadores Acorrentados",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Hwei": {
+   "games": 9,
+   "wins": 7,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 8,
+     "wins": 6
+    },
+    {
+     "key": "8992",
+     "name": "Toque Ígneo",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 7,
+     "wins": 5
+    },
+    {
+     "key": "8400",
+     "name": "Determinação",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 7,
+     "wins": 5
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 2,
+     "wins": 2
+    }
+   ],
+   "items": [
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 5,
+     "wins": 4
+    },
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 4,
+     "wins": 4
+    },
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 3,
+     "wins": 3
+    },
+    {
+     "key": "3157",
+     "name": "Ampulheta de Zhonya",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "4628",
+     "name": "Foco do Horizonte",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "4633",
+     "name": "Criafendas",
+     "games": 2,
+     "wins": 2
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 5,
+     "wins": 5
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "3170",
+     "name": "Marcha Célere",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Akshan": {
+   "games": 7,
+   "wins": 6,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 5,
+     "wins": 5
+    },
+    {
+     "key": "8992",
+     "name": "Toque Ígneo",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 7,
+     "wins": 6
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 5,
+     "wins": 5
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 4,
+     "wins": 4
+    },
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 4,
+     "wins": 4
+    },
+    {
+     "key": "4645",
+     "name": "Chama Sombria",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "3157",
+     "name": "Ampulheta de Zhonya",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "4628",
+     "name": "Foco do Horizonte",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 5,
+     "wins": 4
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Singed": {
+   "games": 1,
+   "wins": 1,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Garen": {
+   "games": 6,
+   "wins": 3,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 5,
+     "wins": 3
+    },
+    {
+     "key": "8992",
+     "name": "Toque Ígneo",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 6,
+     "wins": 3
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 5,
+     "wins": 3
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 5,
+     "wins": 3
+    },
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 4,
+     "wins": 1
+    },
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "4633",
+     "name": "Criafendas",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "3152",
+     "name": "Explocinturão Hextec",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 4,
+     "wins": 2
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "3170",
+     "name": "Marcha Célere",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Chogath": {
+   "games": 1,
+   "wins": 1,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8300",
+     "name": "Inspiração",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Ziggs": {
+   "games": 1,
+   "wins": 1,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "4645",
+     "name": "Chama Sombria",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3135",
+     "name": "Cajado do Vazio",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Diana": {
+   "games": 4,
+   "wins": 2,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 4,
+     "wins": 2
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 4,
+     "wins": 2
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 4,
+     "wins": 2
+    }
+   ],
+   "items": [
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "3135",
+     "name": "Cajado do Vazio",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "4645",
+     "name": "Chama Sombria",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "4633",
+     "name": "Criafendas",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 4,
+     "wins": 2
+    }
+   ]
+  },
+  "Camille": {
+   "games": 2,
+   "wins": 1,
+   "keystones": [
+    {
+     "key": "8214",
+     "name": "Invocar Aery",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "8300",
+     "name": "Inspiração",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "3152",
+     "name": "Explocinturão Hextec",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 2,
+     "wins": 1
+    }
+   ]
+  },
+  "Naafiri": {
+   "games": 2,
+   "wins": 2,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "8992",
+     "name": "Toque Ígneo",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 2,
+     "wins": 2
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 2,
+     "wins": 2
+    }
+   ]
+  },
+  "Gwen": {
+   "games": 1,
+   "wins": 0,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Xerath": {
+   "games": 1,
+   "wins": 0,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [],
+   "boots": []
+  },
+  "Yunara": {
+   "games": 1,
+   "wins": 1,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3135",
+     "name": "Cajado do Vazio",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Kled": {
+   "games": 2,
+   "wins": 0,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "8992",
+     "name": "Toque Ígneo",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 2,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 2,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "4645",
+     "name": "Chama Sombria",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Sylas": {
+   "games": 16,
+   "wins": 10,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 8,
+     "wins": 7
+    },
+    {
+     "key": "8992",
+     "name": "Toque Ígneo",
+     "games": 5,
+     "wins": 1
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 12,
+     "wins": 7
+    },
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 10,
+     "wins": 7
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 6,
+     "wins": 3
+    }
+   ],
+   "items": [
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 11,
+     "wins": 8
+    },
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 10,
+     "wins": 8
+    },
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 7,
+     "wins": 4
+    },
+    {
+     "key": "4633",
+     "name": "Criafendas",
+     "games": 5,
+     "wins": 2
+    },
+    {
+     "key": "3135",
+     "name": "Cajado do Vazio",
+     "games": 5,
+     "wins": 5
+    },
+    {
+     "key": "3152",
+     "name": "Explocinturão Hextec",
+     "games": 4,
+     "wins": 3
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 9,
+     "wins": 7
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 7,
+     "wins": 3
+    }
+   ]
+  },
+  "Qiyana": {
+   "games": 11,
+   "wins": 5,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 9,
+     "wins": 4
+    },
+    {
+     "key": "8214",
+     "name": "Invocar Aery",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "8992",
+     "name": "Toque Ígneo",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 10,
+     "wins": 4
+    },
+    {
+     "key": "8400",
+     "name": "Determinação",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 6,
+     "wins": 2
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 5,
+     "wins": 3
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 8,
+     "wins": 4
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 6,
+     "wins": 2
+    },
+    {
+     "key": "3152",
+     "name": "Explocinturão Hextec",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "3157",
+     "name": "Ampulheta de Zhonya",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 2,
+     "wins": 2
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 7,
+     "wins": 2
+    },
+    {
+     "key": "3170",
+     "name": "Marcha Célere",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 2,
+     "wins": 1
+    }
+   ]
+  },
+  "Anivia": {
+   "games": 8,
+   "wins": 3,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 7,
+     "wins": 2
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 6,
+     "wins": 1
+    },
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 8,
+     "wins": 3
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 5,
+     "wins": 2
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 3,
+     "wins": 2
+    },
+    {
+     "key": "3152",
+     "name": "Explocinturão Hextec",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 4,
+     "wins": 3
+    },
+    {
+     "key": "3170",
+     "name": "Marcha Célere",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Kayle": {
+   "games": 1,
+   "wins": 1,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "4645",
+     "name": "Chama Sombria",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3170",
+     "name": "Marcha Célere",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Ezreal": {
+   "games": 1,
+   "wins": 0,
+   "keystones": [
+    {
+     "key": "8992",
+     "name": "Toque Ígneo",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Swain": {
+   "games": 3,
+   "wins": 3,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 3,
+     "wins": 3
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 3,
+     "wins": 3
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 3,
+     "wins": 3
+    }
+   ],
+   "items": [
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "3135",
+     "name": "Cajado do Vazio",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3152",
+     "name": "Explocinturão Hextec",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Sion": {
+   "games": 3,
+   "wins": 3,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "8992",
+     "name": "Toque Ígneo",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 3,
+     "wins": 3
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "4633",
+     "name": "Criafendas",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Rumble": {
+   "games": 1,
+   "wins": 0,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "3135",
+     "name": "Cajado do Vazio",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Lucian": {
+   "games": 5,
+   "wins": 2,
+   "keystones": [
+    {
+     "key": "8992",
+     "name": "Toque Ígneo",
+     "games": 3,
+     "wins": 2
+    },
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 2,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8400",
+     "name": "Determinação",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 4,
+     "wins": 2
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 4,
+     "wins": 2
+    },
+    {
+     "key": "3152",
+     "name": "Explocinturão Hextec",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "4633",
+     "name": "Criafendas",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "4628",
+     "name": "Foco do Horizonte",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 2,
+     "wins": 1
+    }
+   ]
+  },
+  "Kennen": {
+   "games": 2,
+   "wins": 2,
+   "keystones": [
+    {
+     "key": "8992",
+     "name": "Toque Ígneo",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 2,
+     "wins": 2
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 2,
+     "wins": 2
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "3157",
+     "name": "Ampulheta de Zhonya",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Taliyah": {
+   "games": 5,
+   "wins": 2,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 5,
+     "wins": 2
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 4,
+     "wins": 2
+    },
+    {
+     "key": "8300",
+     "name": "Inspiração",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 5,
+     "wins": 2
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 4,
+     "wins": 1
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "3157",
+     "name": "Ampulheta de Zhonya",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3135",
+     "name": "Cajado do Vazio",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3152",
+     "name": "Explocinturão Hextec",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 4,
+     "wins": 1
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Karthus": {
+   "games": 2,
+   "wins": 1,
+   "keystones": [
+    {
+     "key": "8214",
+     "name": "Invocar Aery",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "3152",
+     "name": "Explocinturão Hextec",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Ornn": {
+   "games": 1,
+   "wins": 1,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Seraphine": {
+   "games": 1,
+   "wins": 1,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Velkoz": {
+   "games": 4,
+   "wins": 1,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "8992",
+     "name": "Toque Ígneo",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 4,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 4,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 4,
+     "wins": 1
+    },
+    {
+     "key": "3152",
+     "name": "Explocinturão Hextec",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "3135",
+     "name": "Cajado do Vazio",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 3,
+     "wins": 0
+    },
+    {
+     "key": "3170",
+     "name": "Marcha Célere",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Gangplank": {
+   "games": 2,
+   "wins": 0,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "8992",
+     "name": "Toque Ígneo",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 2,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 2,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "3137",
+     "name": "Criptoflora",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Vayne": {
+   "games": 2,
+   "wins": 0,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 2,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 2,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 2,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Briar": {
+   "games": 1,
+   "wins": 0,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [],
+   "boots": []
+  },
+  "Warwick": {
+   "games": 1,
+   "wins": 0,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "3165",
+     "name": "Morellonomicon",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "4633",
+     "name": "Criafendas",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Neeko": {
+   "games": 1,
+   "wins": 1,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Corki": {
+   "games": 1,
+   "wins": 1,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "3157",
+     "name": "Ampulheta de Zhonya",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3135",
+     "name": "Cajado do Vazio",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Nocturne": {
+   "games": 1,
+   "wins": 1,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "3152",
+     "name": "Explocinturão Hextec",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3135",
+     "name": "Cajado do Vazio",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Kaisa": {
+   "games": 1,
+   "wins": 1,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Annie": {
+   "games": 1,
+   "wins": 1,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "3152",
+     "name": "Explocinturão Hextec",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Brand": {
+   "games": 1,
+   "wins": 0,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "3135",
+     "name": "Cajado do Vazio",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Teemo": {
+   "games": 1,
+   "wins": 1,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "4628",
+     "name": "Foco do Horizonte",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3175",
+     "name": "Sapatos Enfeitiçados",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Kalista": {
+   "games": 1,
+   "wins": 0,
+   "keystones": [
+    {
+     "key": "8992",
+     "name": "Toque Ígneo",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Quinn": {
+   "games": 1,
+   "wins": 1,
+   "keystones": [
+    {
+     "key": "8214",
+     "name": "Invocar Aery",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "4629",
+     "name": "Ímpeto Cósmico",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "4633",
+     "name": "Criafendas",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Ambessa": {
+   "games": 1,
+   "wins": 1,
+   "keystones": [
+    {
+     "key": "8230",
+     "name": "Avanço da Tempestade",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+6",
+     "name": "Flash + Fantasma",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "4645",
+     "name": "Chama Sombria",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  }
+ }
+}
