@@ -19,7 +19,7 @@ Experiência de "seleção de campeões" inspirada no client do LoL.
 6. Botão de **apoio via Pix**: mostra a chave em texto, botão de copiar e QR code gerado no cliente. A chave fica numa constante de config (preencher depois).
 7. Controle de volume / mudo, lembrado em localStorage. Sons só tocam depois da primeira interação.
 
-8. **Estatísticas do patch**: `scripts/collect-stats.mjs` usa a API oficial da Riot (chave em `.env`, nunca em `src/`) e gera `data/stats.json` com números agregados de Vlad mid por inimigo (Mestre+). O guia mostra isso como complemento às dicas do Guaxi, marcando "igual/diferente do vídeo".
+8. **Estatísticas do patch**: `scripts/collect-stats.mjs` usa a API oficial da Riot (chave em `.env`, nunca em `src/`) e gera `data/stats.json` com números agregados de Vlad mid por inimigo (Mestre+), incluindo página de runas e ordem de compra "de consenso" (escolha mais comum por linha/posição; `--enrich` completa partidas antigas do cache com timeline). O guia mostra isso como complemento às dicas do Guaxi, marcando "igual/diferente do vídeo".
 
 ## Regras importantes
 - Não raspar METAsrc, OP.GG, Blitz etc. (termos proíbem coleta automatizada). Dados atualizados vêm da API da Riot.

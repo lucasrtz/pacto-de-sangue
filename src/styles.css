@@ -513,3 +513,6 @@ select {
 .fund-runepage .lo-runes { grid-template-columns: 1fr; }
 .ps-icons img.round { border-radius: 50%; background: #000; }
 .ps-icons img + img { margin-left: -4px; }
+.ps-feature { margin: 16px 0 18px; }
+.ps-feature h3 { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; margin: 0 0 10px; font: 600 12px var(--label); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+.ps-feature h3 .ps-num { letter-spacing: 0; text-transform: none; }

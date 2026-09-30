@@ -91,12 +91,13 @@ function load(version) {
         );
       });
       const itemByName = new Map();
+      const itemById = new Map(Object.entries(items.data).map(([id, it]) => [id, it.name]));
       Object.entries(items.data).forEach(([id, it]) => {
         if (!it.maps?.["11"] || it.gold?.purchasable === false) return;
         const key = plain(it.name);
         if (!itemByName.has(key)) itemByName.set(key, { id, name: it.name });
       });
-      return { runes, runeByName, itemByName, spellByName, spellByKey, trees };
+      return { runes, runeByName, itemByName, itemById, spellByName, spellByKey, trees };
     })
     .catch((e) => {
       cache = null;

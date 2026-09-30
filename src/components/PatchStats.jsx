@@ -1,6 +1,7 @@
 import { STATS, MIN_SAMPLE, pct, platformsLabel, mentions } from "../lib/stats.js";
 import { itemIcon } from "../lib/arena.js";
 import { useGameData, runeIcon, spellIconUrl } from "../lib/gamedata.js";
+import { RunePage, ItemPath } from "./Loadout.jsx";
 
 function Compare({ ok }) {
   if (ok == null) return null;
@@ -61,11 +62,35 @@ export default function PatchStats({ champId, setup, version }) {
             <span className="ps-scope">{scope}</span>
           </p>
           {s.games < MIN_SAMPLE && <p className="note">Amostra pequena: use só como referência.</p>}
+          {s.page && (
+            <div className="ps-feature">
+              <h3>
+                Página de runas mais comum{" "}
+                <span className="ps-num">
+                  pedra angular em {pct(s.page.keystoneGames, s.page.games)}% das partidas; em cada linha, a escolha mais usada
+                </span>
+              </h3>
+              <RunePage data={data} runeIds={s.page.runes} shards={s.page.shards} />
+            </div>
+          )}
+          {s.order?.items?.length > 0 && (
+            <div className="ps-feature">
+              <h3>
+                Ordem de compra mais comum{" "}
+                <span className="ps-num">
+                  {s.order.firstTwoGames >= 3
+                    ? `os 2 primeiros itens lendários nessa ordem em ${pct(s.order.firstTwoGames, s.order.games)}% das partidas · ${pct(s.order.firstTwoWins, s.order.firstTwoGames)}% vit.`
+                    : "poucas partidas com essa ordem exata: use como referência"}
+                </span>
+              </h3>
+              <ItemPath items={s.order.items.map((id) => ({ id, name: data?.itemById?.get(id) || "" }))} version={version} />
+            </div>
+          )}
           <dl className="ps">
             <Row label="Runa" entries={s.keystones} total={s.games} iconsFor={runeIcons} compareWith={setup?.Runa ? setup.Runa : null} />
             <Row label="Secundária" entries={s.secondary} total={s.games} iconsFor={runeIcons} />
             <Row label="Feitiços" entries={s.spells} total={s.games} iconsFor={spellIcons} compareWith={setup?.["Feitiços"] ?? null} />
-            <Row label="Itens" entries={s.items.slice(0, 4)} total={s.games} icons version={version} />
+            <Row label="Mais comprados" entries={s.items.slice(0, 4)} total={s.games} icons version={version} />
             <Row label="Botas" entries={s.boots.slice(0, 2)} total={s.games} icons version={version} />
           </dl>
         </>
