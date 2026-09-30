@@ -5,6 +5,7 @@ import { playSfx } from "../lib/audio.js";
 import ChampIcon from "./ChampIcon.jsx";
 import { DifficultyBadge } from "./Difficulty.jsx";
 import PatchStats from "./PatchStats.jsx";
+import Setup from "./Setup.jsx";
 
 const SETUP_ORDER = ["Runa", "Feitiços", "Build"];
 
@@ -47,14 +48,7 @@ export default function MatchupGuide({ m, version }) {
             {setup.length > 0 && (
               <section className="block">
                 <h2 className="block-title">Setup</h2>
-                <dl className="setup">
-                  {setup.map(([k, v]) => (
-                    <div key={k} className="setup-item">
-                      <dt>{k}</dt>
-                      <dd>{v}</dd>
-                    </div>
-                  ))}
-                </dl>
+                <Setup setup={m.setup} version={version} />
               </section>
             )}
 

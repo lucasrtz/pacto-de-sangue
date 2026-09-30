@@ -23,7 +23,7 @@ Experiência de "seleção de campeões" inspirada no client do LoL.
 
 ## Regras importantes
 - Não raspar METAsrc, OP.GG, Blitz etc. (termos proíbem coleta automatizada). Dados atualizados vêm da API da Riot.
-- **Não copiar código, layout, textos ou arquivos do courtesy.com.br.** Ele é só inspiração de conceito; tudo deve ser feito do zero.
+- **Não copiar código, textos ou arquivos do courtesy.com.br.** O layout pode servir de referência, mas o código é escrito do zero.
 - Assets de jogo só de fontes oficiais/públicas:
   - Ícones e splashes: Riot Data Dragon (`https://ddragon.leagueoflegends.com/`, pegar a versão atual em `/api/versions.json`).
   - Falas de seleção e sons do client: CommunityDragon (`https://raw.communitydragon.org/`).

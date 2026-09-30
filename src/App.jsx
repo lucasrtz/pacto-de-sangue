@@ -49,7 +49,7 @@ export default function App() {
   const tab = first === "fundamentos" ? "fundamentos" : first === "arena" ? "arena" : "confrontos";
 
   let view;
-  if (first === "fundamentos") view = <Fundamentos />;
+  if (first === "fundamentos") view = <Fundamentos version={dd.version} />;
   else if (first === "arena") view = <Arena dd={dd} />;
   else if (first === "mid" && second) {
     const m = matchups.find((x) => x.slug === second);
