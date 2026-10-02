@@ -1,7 +1,8 @@
 {
  "patch": "16.19",
+ "fromPatch": "16.19",
  "version": "16.19.1",
- "generatedAt": "2026-10-02T20:37:47.835Z",
+ "generatedAt": "2026-10-02T20:41:46.149Z",
  "platforms": [
   "br1",
   "kr",
@@ -11,20 +12,20 @@
  "tier": "Mestre+",
  "days": 21,
  "overall": {
-  "games": 616,
-  "wins": 295,
+  "games": 630,
+  "wins": 302,
   "keystones": [
    {
     "key": "8230",
     "name": "Avanço da Tempestade",
-    "games": 478,
-    "wins": 236
+    "games": 490,
+    "wins": 242
    },
    {
     "key": "8992",
     "name": "Toque Ígneo",
-    "games": 94,
-    "wins": 37
+    "games": 96,
+    "wins": 38
    },
    {
     "key": "8010",
@@ -37,8 +38,8 @@
    {
     "key": "8000",
     "name": "Precisão",
-    "games": 520,
-    "wins": 252
+    "games": 534,
+    "wins": 259
    },
    {
     "key": "8400",
@@ -51,8 +52,8 @@
    {
     "key": "4+6",
     "name": "Flash + Fantasma",
-    "games": 512,
-    "wins": 252
+    "games": 526,
+    "wins": 259
    },
    {
     "key": "4+14",
@@ -71,14 +72,14 @@
    {
     "key": "4646",
     "name": "Ápice da Tempestade",
-    "games": 370,
-    "wins": 183
+    "games": 384,
+    "wins": 190
    },
    {
     "key": "3089",
     "name": "Capuz da Morte de Rabadon",
-    "games": 318,
-    "wins": 178
+    "games": 325,
+    "wins": 182
    },
    {
     "key": "4629",
@@ -95,22 +96,22 @@
    {
     "key": "3135",
     "name": "Cajado do Vazio",
-    "games": 124,
-    "wins": 68
+    "games": 129,
+    "wins": 71
    },
    {
     "key": "6653",
     "name": "Tormento de Liandry",
-    "games": 119,
-    "wins": 64
+    "games": 128,
+    "wins": 70
    }
   ],
   "boots": [
    {
     "key": "3175",
     "name": "Sapatos Enfeitiçados",
-    "games": 367,
-    "wins": 179
+    "games": 380,
+    "wins": 185
    },
    {
     "key": "3171",
@@ -121,8 +122,8 @@
    {
     "key": "3170",
     "name": "Marcha Célere",
-    "games": 41,
-    "wins": 24
+    "games": 42,
+    "wins": 25
    }
   ],
   "page": {
@@ -139,8 +140,8 @@
     5008,
     5001
    ],
-   "keystoneGames": 478,
-   "games": 616
+   "keystoneGames": 490,
+   "games": 630
   },
   "order": {
    "items": [
@@ -149,9 +150,9 @@
     "6653",
     "3135"
    ],
-   "firstTwoGames": 111,
-   "firstTwoWins": 59,
-   "games": 484
+   "firstTwoGames": 120,
+   "firstTwoWins": 65,
+   "games": 496
   }
  },
  "vs": {
@@ -401,14 +402,14 @@
    }
   },
   "Ryze": {
-   "games": 20,
-   "wins": 7,
+   "games": 22,
+   "wins": 8,
    "keystones": [
     {
      "key": "8230",
      "name": "Avanço da Tempestade",
-     "games": 16,
-     "wins": 6
+     "games": 18,
+     "wins": 7
     },
     {
      "key": "8010",
@@ -427,8 +428,8 @@
     {
      "key": "8000",
      "name": "Precisão",
-     "games": 16,
-     "wins": 7
+     "games": 18,
+     "wins": 8
     },
     {
      "key": "8300",
@@ -441,8 +442,8 @@
     {
      "key": "4+6",
      "name": "Flash + Fantasma",
-     "games": 19,
-     "wins": 6
+     "games": 21,
+     "wins": 7
     },
     {
      "key": "4+14",
@@ -455,18 +456,24 @@
     {
      "key": "4646",
      "name": "Ápice da Tempestade",
-     "games": 12,
-     "wins": 3
+     "games": 14,
+     "wins": 4
     },
     {
      "key": "3089",
      "name": "Capuz da Morte de Rabadon",
-     "games": 12,
-     "wins": 5
+     "games": 14,
+     "wins": 6
     },
     {
      "key": "3135",
      "name": "Cajado do Vazio",
+     "games": 6,
+     "wins": 4
+    },
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
      "games": 5,
      "wins": 3
     },
@@ -475,12 +482,6 @@
      "name": "Criafendas",
      "games": 4,
      "wins": 1
-    },
-    {
-     "key": "6653",
-     "name": "Tormento de Liandry",
-     "games": 4,
-     "wins": 2
     },
     {
      "key": "3137",
@@ -493,8 +494,8 @@
     {
      "key": "3175",
      "name": "Sapatos Enfeitiçados",
-     "games": 17,
-     "wins": 7
+     "games": 19,
+     "wins": 8
     },
     {
      "key": "3171",
@@ -510,15 +511,15 @@
      8210,
      8236,
      9105,
-     8299
+     8017
     ],
     "shards": [
      5007,
      5008,
      5001
     ],
-    "keystoneGames": 16,
-    "games": 20
+    "keystoneGames": 18,
+    "games": 22
    },
    "order": {
     "items": [
@@ -527,9 +528,9 @@
      "3089",
      "4633"
     ],
-    "firstTwoGames": 6,
+    "firstTwoGames": 7,
     "firstTwoWins": 1,
-    "games": 17
+    "games": 19
    }
   },
   "Viktor": {
@@ -2252,7 +2253,7 @@
    }
   },
   "Ahri": {
-   "games": 23,
+   "games": 24,
    "wins": 12,
    "keystones": [
     {
@@ -2264,7 +2265,7 @@
     {
      "key": "8992",
      "name": "Toque Ígneo",
-     "games": 1,
+     "games": 2,
      "wins": 1
     }
    ],
@@ -2272,7 +2273,7 @@
     {
      "key": "8000",
      "name": "Precisão",
-     "games": 19,
+     "games": 20,
      "wins": 12
     },
     {
@@ -2286,7 +2287,7 @@
     {
      "key": "4+6",
      "name": "Flash + Fantasma",
-     "games": 19,
+     "games": 20,
      "wins": 11
     },
     {
@@ -2300,19 +2301,19 @@
     {
      "key": "4646",
      "name": "Ápice da Tempestade",
-     "games": 16,
+     "games": 17,
      "wins": 8
+    },
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 8,
+     "wins": 4
     },
     {
      "key": "3089",
      "name": "Capuz da Morte de Rabadon",
      "games": 8,
-     "wins": 4
-    },
-    {
-     "key": "6653",
-     "name": "Tormento de Liandry",
-     "games": 7,
      "wins": 4
     },
     {
@@ -2338,7 +2339,7 @@
     {
      "key": "3175",
      "name": "Sapatos Enfeitiçados",
-     "games": 12,
+     "games": 13,
      "wins": 5
     },
     {
@@ -2369,7 +2370,7 @@
      5001
     ],
     "keystoneGames": 22,
-    "games": 23
+    "games": 24
    },
    "order": {
     "items": [
@@ -2378,9 +2379,9 @@
      "6653",
      "3135"
     ],
-    "firstTwoGames": 7,
+    "firstTwoGames": 8,
     "firstTwoWins": 4,
-    "games": 18
+    "games": 19
    }
   },
   "Katarina": {
@@ -2648,14 +2649,14 @@
    }
   },
   "Akali": {
-   "games": 15,
-   "wins": 6,
+   "games": 17,
+   "wins": 7,
    "keystones": [
     {
      "key": "8230",
      "name": "Avanço da Tempestade",
-     "games": 11,
-     "wins": 6
+     "games": 13,
+     "wins": 7
     },
     {
      "key": "8992",
@@ -2668,16 +2669,16 @@
     {
      "key": "8000",
      "name": "Precisão",
-     "games": 15,
-     "wins": 6
+     "games": 17,
+     "wins": 7
     }
    ],
    "spells": [
     {
      "key": "4+6",
      "name": "Flash + Fantasma",
-     "games": 12,
-     "wins": 6
+     "games": 14,
+     "wins": 7
     },
     {
      "key": "4+14",
@@ -2696,20 +2697,20 @@
     {
      "key": "4646",
      "name": "Ápice da Tempestade",
-     "games": 11,
-     "wins": 4
+     "games": 13,
+     "wins": 5
     },
     {
      "key": "3089",
      "name": "Capuz da Morte de Rabadon",
-     "games": 8,
-     "wins": 3
+     "games": 9,
+     "wins": 4
     },
     {
      "key": "6653",
      "name": "Tormento de Liandry",
-     "games": 3,
-     "wins": 2
+     "games": 4,
+     "wins": 3
     },
     {
      "key": "3135",
@@ -2734,8 +2735,8 @@
     {
      "key": "3175",
      "name": "Sapatos Enfeitiçados",
-     "games": 11,
-     "wins": 5
+     "games": 13,
+     "wins": 6
     },
     {
      "key": "3171",
@@ -2764,19 +2765,19 @@
      5008,
      5001
     ],
-    "keystoneGames": 11,
-    "games": 15
+    "keystoneGames": 13,
+    "games": 17
    },
    "order": {
     "items": [
      "4646",
      "3020",
-     "3089",
-     "4633"
+     "6653",
+     "3135"
     ],
     "firstTwoGames": 4,
-    "firstTwoWins": 1,
-    "games": 14
+    "firstTwoWins": 3,
+    "games": 15
    }
   },
   "Aurora": {
@@ -2918,14 +2919,14 @@
    }
   },
   "Locke": {
-   "games": 31,
-   "wins": 16,
+   "games": 33,
+   "wins": 18,
    "keystones": [
     {
      "key": "8230",
      "name": "Avanço da Tempestade",
-     "games": 28,
-     "wins": 15
+     "games": 30,
+     "wins": 17
     },
     {
      "key": "8992",
@@ -2944,8 +2945,8 @@
     {
      "key": "8000",
      "name": "Precisão",
-     "games": 30,
-     "wins": 16
+     "games": 32,
+     "wins": 18
     },
     {
      "key": "8400",
@@ -2958,8 +2959,8 @@
     {
      "key": "4+6",
      "name": "Flash + Fantasma",
-     "games": 28,
-     "wins": 15
+     "games": 30,
+     "wins": 17
     },
     {
      "key": "4+14",
@@ -2972,8 +2973,8 @@
     {
      "key": "4646",
      "name": "Ápice da Tempestade",
-     "games": 20,
-     "wins": 10
+     "games": 22,
+     "wins": 12
     },
     {
      "key": "3089",
@@ -2984,8 +2985,8 @@
     {
      "key": "6653",
      "name": "Tormento de Liandry",
-     "games": 7,
-     "wins": 4
+     "games": 9,
+     "wins": 6
     },
     {
      "key": "4629",
@@ -2996,8 +2997,8 @@
     {
      "key": "3135",
      "name": "Cajado do Vazio",
-     "games": 4,
-     "wins": 2
+     "games": 5,
+     "wins": 3
     },
     {
      "key": "3152",
@@ -3010,8 +3011,8 @@
     {
      "key": "3175",
      "name": "Sapatos Enfeitiçados",
-     "games": 25,
-     "wins": 13
+     "games": 27,
+     "wins": 15
     },
     {
      "key": "3171",
@@ -3040,8 +3041,8 @@
      5008,
      5001
     ],
-    "keystoneGames": 28,
-    "games": 31
+    "keystoneGames": 30,
+    "games": 33
    },
    "order": {
     "items": [
@@ -3050,9 +3051,9 @@
      "6653",
      "3135"
     ],
-    "firstTwoGames": 7,
-    "firstTwoWins": 4,
-    "games": 23
+    "firstTwoGames": 9,
+    "firstTwoWins": 6,
+    "games": 25
    }
   },
   "Syndra": {
@@ -3440,13 +3441,13 @@
    }
   },
   "Cassiopeia": {
-   "games": 9,
+   "games": 10,
    "wins": 3,
    "keystones": [
     {
      "key": "8230",
      "name": "Avanço da Tempestade",
-     "games": 9,
+     "games": 10,
      "wins": 3
     }
    ],
@@ -3454,7 +3455,7 @@
     {
      "key": "8000",
      "name": "Precisão",
-     "games": 8,
+     "games": 9,
      "wins": 2
     },
     {
@@ -3468,7 +3469,7 @@
     {
      "key": "4+6",
      "name": "Flash + Fantasma",
-     "games": 8,
+     "games": 9,
      "wins": 2
     },
     {
@@ -3482,13 +3483,13 @@
     {
      "key": "4646",
      "name": "Ápice da Tempestade",
-     "games": 7,
+     "games": 8,
      "wins": 3
     },
     {
      "key": "3089",
      "name": "Capuz da Morte de Rabadon",
-     "games": 5,
+     "games": 6,
      "wins": 3
     },
     {
@@ -3520,7 +3521,7 @@
     {
      "key": "3175",
      "name": "Sapatos Enfeitiçados",
-     "games": 5,
+     "games": 6,
      "wins": 1
     },
     {
@@ -3537,15 +3538,15 @@
      8210,
      8236,
      9105,
-     8017
+     8299
     ],
     "shards": [
      5007,
      5010,
      5011
     ],
-    "keystoneGames": 9,
-    "games": 9
+    "keystoneGames": 10,
+    "games": 10
    },
    "order": {
     "items": [
@@ -3554,9 +3555,9 @@
      "3089",
      "3152"
     ],
-    "firstTwoGames": 3,
+    "firstTwoGames": 4,
     "firstTwoWins": 3,
-    "games": 8
+    "games": 9
    }
   },
   "AurelionSol": {
@@ -4429,20 +4430,20 @@
    }
   },
   "Yasuo": {
-   "games": 18,
-   "wins": 7,
+   "games": 20,
+   "wins": 8,
    "keystones": [
     {
      "key": "8230",
      "name": "Avanço da Tempestade",
-     "games": 13,
+     "games": 14,
      "wins": 4
     },
     {
      "key": "8992",
      "name": "Toque Ígneo",
-     "games": 3,
-     "wins": 3
+     "games": 4,
+     "wins": 4
     },
     {
      "key": "8010",
@@ -4455,8 +4456,8 @@
     {
      "key": "8000",
      "name": "Precisão",
-     "games": 15,
-     "wins": 6
+     "games": 17,
+     "wins": 7
     },
     {
      "key": "8200",
@@ -4469,8 +4470,8 @@
     {
      "key": "4+6",
      "name": "Flash + Fantasma",
-     "games": 17,
-     "wins": 6
+     "games": 19,
+     "wins": 7
     },
     {
      "key": "4+14",
@@ -4483,14 +4484,14 @@
     {
      "key": "4646",
      "name": "Ápice da Tempestade",
-     "games": 10,
-     "wins": 4
+     "games": 12,
+     "wins": 5
     },
     {
      "key": "3089",
      "name": "Capuz da Morte de Rabadon",
-     "games": 8,
-     "wins": 5
+     "games": 9,
+     "wins": 6
     },
     {
      "key": "4629",
@@ -4499,30 +4500,30 @@
      "wins": 4
     },
     {
+     "key": "3135",
+     "name": "Cajado do Vazio",
+     "games": 4,
+     "wins": 3
+    },
+    {
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 4,
+     "wins": 1
+    },
+    {
      "key": "4633",
      "name": "Criafendas",
      "games": 3,
      "wins": 1
-    },
-    {
-     "key": "3135",
-     "name": "Cajado do Vazio",
-     "games": 3,
-     "wins": 2
-    },
-    {
-     "key": "4645",
-     "name": "Chama Sombria",
-     "games": 2,
-     "wins": 2
     }
    ],
    "boots": [
     {
      "key": "3175",
      "name": "Sapatos Enfeitiçados",
-     "games": 9,
-     "wins": 4
+     "games": 11,
+     "wins": 5
     },
     {
      "key": "3171",
@@ -4545,19 +4546,19 @@
      5008,
      5001
     ],
-    "keystoneGames": 13,
-    "games": 18
+    "keystoneGames": 14,
+    "games": 20
    },
    "order": {
     "items": [
      "3158",
      "4646",
-     "3089",
-     "4645"
+     "6653",
+     "3135"
     ],
-    "firstTwoGames": 2,
+    "firstTwoGames": 4,
     "firstTwoWins": 1,
-    "games": 11
+    "games": 13
    }
   },
   "Twitch": {
@@ -5363,13 +5364,13 @@
    }
   },
   "Akshan": {
-   "games": 7,
+   "games": 8,
    "wins": 6,
    "keystones": [
     {
      "key": "8230",
      "name": "Avanço da Tempestade",
-     "games": 5,
+     "games": 6,
      "wins": 5
     },
     {
@@ -5383,7 +5384,7 @@
     {
      "key": "8000",
      "name": "Precisão",
-     "games": 7,
+     "games": 8,
      "wins": 6
     }
    ],
@@ -5391,7 +5392,7 @@
     {
      "key": "4+6",
      "name": "Flash + Fantasma",
-     "games": 5,
+     "games": 6,
      "wins": 5
     },
     {
@@ -5403,14 +5404,14 @@
    ],
    "items": [
     {
-     "key": "3089",
-     "name": "Capuz da Morte de Rabadon",
-     "games": 4,
+     "key": "4646",
+     "name": "Ápice da Tempestade",
+     "games": 5,
      "wins": 4
     },
     {
-     "key": "4646",
-     "name": "Ápice da Tempestade",
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
      "games": 4,
      "wins": 4
     },
@@ -5427,15 +5428,15 @@
      "wins": 2
     },
     {
-     "key": "4628",
-     "name": "Foco do Horizonte",
-     "games": 1,
+     "key": "6653",
+     "name": "Tormento de Liandry",
+     "games": 2,
      "wins": 1
     },
     {
-     "key": "6653",
-     "name": "Tormento de Liandry",
-     "games": 1,
+     "key": "3135",
+     "name": "Cajado do Vazio",
+     "games": 2,
      "wins": 1
     }
    ],
@@ -5443,7 +5444,7 @@
     {
      "key": "3175",
      "name": "Sapatos Enfeitiçados",
-     "games": 5,
+     "games": 6,
      "wins": 4
     },
     {
@@ -5467,8 +5468,8 @@
      5008,
      5001
     ],
-    "keystoneGames": 5,
-    "games": 7
+    "keystoneGames": 6,
+    "games": 8
    },
    "order": {
     "items": [
@@ -5479,7 +5480,7 @@
     ],
     "firstTwoGames": 2,
     "firstTwoWins": 2,
-    "games": 4
+    "games": 5
    }
   },
   "Singed": {
@@ -5545,14 +5546,14 @@
    "order": null
   },
   "Garen": {
-   "games": 6,
-   "wins": 3,
+   "games": 7,
+   "wins": 4,
    "keystones": [
     {
      "key": "8230",
      "name": "Avanço da Tempestade",
-     "games": 5,
-     "wins": 3
+     "games": 6,
+     "wins": 4
     },
     {
      "key": "8992",
@@ -5565,16 +5566,16 @@
     {
      "key": "8000",
      "name": "Precisão",
-     "games": 6,
-     "wins": 3
+     "games": 7,
+     "wins": 4
     }
    ],
    "spells": [
     {
      "key": "4+6",
      "name": "Flash + Fantasma",
-     "games": 5,
-     "wins": 3
+     "games": 6,
+     "wins": 4
     },
     {
      "key": "4+14",
@@ -5587,20 +5588,20 @@
     {
      "key": "3089",
      "name": "Capuz da Morte de Rabadon",
-     "games": 5,
-     "wins": 3
+     "games": 6,
+     "wins": 4
     },
     {
      "key": "4646",
      "name": "Ápice da Tempestade",
-     "games": 4,
-     "wins": 1
+     "games": 5,
+     "wins": 2
     },
     {
      "key": "6653",
      "name": "Tormento de Liandry",
-     "games": 3,
-     "wins": 1
+     "games": 4,
+     "wins": 2
     },
     {
      "key": "4629",
@@ -5625,8 +5626,8 @@
     {
      "key": "3175",
      "name": "Sapatos Enfeitiçados",
-     "games": 4,
-     "wins": 2
+     "games": 5,
+     "wins": 3
     },
     {
      "key": "3171",
@@ -5655,8 +5656,8 @@
      5008,
      5001
     ],
-    "keystoneGames": 5,
-    "games": 6
+    "keystoneGames": 6,
+    "games": 7
    },
    "order": {
     "items": [
@@ -5665,9 +5666,9 @@
      "6653",
      "3135"
     ],
-    "firstTwoGames": 3,
-    "firstTwoWins": 1,
-    "games": 6
+    "firstTwoGames": 4,
+    "firstTwoWins": 2,
+    "games": 7
    }
   },
   "Chogath": {
@@ -6447,13 +6448,13 @@
    }
   },
   "Sylas": {
-   "games": 16,
+   "games": 17,
    "wins": 10,
    "keystones": [
     {
      "key": "8230",
      "name": "Avanço da Tempestade",
-     "games": 8,
+     "games": 9,
      "wins": 7
     },
     {
@@ -6473,7 +6474,7 @@
     {
      "key": "8000",
      "name": "Precisão",
-     "games": 12,
+     "games": 13,
      "wins": 7
     },
     {
@@ -6487,7 +6488,7 @@
     {
      "key": "4+6",
      "name": "Flash + Fantasma",
-     "games": 10,
+     "games": 11,
      "wins": 7
     },
     {
@@ -6501,13 +6502,13 @@
     {
      "key": "3089",
      "name": "Capuz da Morte de Rabadon",
-     "games": 11,
+     "games": 12,
      "wins": 8
     },
     {
      "key": "4646",
      "name": "Ápice da Tempestade",
-     "games": 10,
+     "games": 11,
      "wins": 8
     },
     {
@@ -6517,16 +6518,16 @@
      "wins": 4
     },
     {
+     "key": "3135",
+     "name": "Cajado do Vazio",
+     "games": 6,
+     "wins": 5
+    },
+    {
      "key": "4633",
      "name": "Criafendas",
      "games": 5,
      "wins": 2
-    },
-    {
-     "key": "3135",
-     "name": "Cajado do Vazio",
-     "games": 5,
-     "wins": 5
     },
     {
      "key": "3152",
@@ -6539,7 +6540,7 @@
     {
      "key": "3175",
      "name": "Sapatos Enfeitiçados",
-     "games": 9,
+     "games": 10,
      "wins": 7
     },
     {
@@ -6563,8 +6564,8 @@
      5008,
      5001
     ],
-    "keystoneGames": 8,
-    "games": 16
+    "keystoneGames": 9,
+    "games": 17
    },
    "order": {
     "items": [
@@ -6575,7 +6576,7 @@
     ],
     "firstTwoGames": 5,
     "firstTwoWins": 3,
-    "games": 15
+    "games": 16
    }
   },
   "Qiyana": {
@@ -6717,14 +6718,14 @@
    }
   },
   "Anivia": {
-   "games": 8,
-   "wins": 3,
+   "games": 9,
+   "wins": 4,
    "keystones": [
     {
      "key": "8230",
      "name": "Avanço da Tempestade",
-     "games": 7,
-     "wins": 2
+     "games": 8,
+     "wins": 3
     },
     {
      "key": "8010",
@@ -6737,8 +6738,8 @@
     {
      "key": "8000",
      "name": "Precisão",
-     "games": 6,
-     "wins": 1
+     "games": 7,
+     "wins": 2
     },
     {
      "key": "8200",
@@ -6751,16 +6752,16 @@
     {
      "key": "4+6",
      "name": "Flash + Fantasma",
-     "games": 8,
-     "wins": 3
+     "games": 9,
+     "wins": 4
     }
    ],
    "items": [
     {
      "key": "4646",
      "name": "Ápice da Tempestade",
-     "games": 5,
-     "wins": 2
+     "games": 6,
+     "wins": 3
     },
     {
      "key": "3089",
@@ -6797,8 +6798,8 @@
     {
      "key": "3170",
      "name": "Marcha Célere",
-     "games": 2,
-     "wins": 0
+     "games": 3,
+     "wins": 1
     },
     {
      "key": "3171",
@@ -6821,8 +6822,8 @@
      5010,
      5001
     ],
-    "keystoneGames": 7,
-    "games": 8
+    "keystoneGames": 8,
+    "games": 9
    },
    "order": {
     "items": [

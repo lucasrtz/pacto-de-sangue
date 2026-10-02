@@ -52,7 +52,9 @@ export default function PatchStats({ champId, setup, version }) {
 
   return (
     <section className="block patch-stats">
-      <h2 className="block-title">No patch {STATS.patch}</h2>
+      <h2 className="block-title">
+        {STATS.patch.includes("–") ? "Nos patches" : "No patch"} {STATS.patch}
+      </h2>
       {!s ? (
         <p className="fine">Nenhuma partida de Vlad mid contra esse campeão na coleta atual ({scope}).</p>
       ) : (

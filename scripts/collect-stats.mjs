@@ -1,5 +1,5 @@
 // Coleta estatísticas agregadas de Vladimir mid por inimigo, direto da API oficial da Riot.
-// Uso: node scripts/collect-stats.mjs [--platforms br1,kr,euw1,na1] [--minutes 60] [--days 21] [--enrich] [--aggregate-only]
+// Uso: node scripts/collect-stats.mjs [--platforms br1,kr,euw1,na1] [--minutes 60] [--days 21] [--from-patch 16.19] [--enrich] [--aggregate-only]
 // --enrich: completa as partidas do cache com página de runas e ordem de compra (baixa a partida e a timeline de novo).
 // --aggregate-only: só recalcula data/stats.json com o cache, sem chamar a API.
 // Precisa de RIOT_API_KEY no .env. Resultado: data/stats.json (só agregados, nenhum jogador identificável).
@@ -95,6 +95,16 @@ async function riot(host, pathname) {
 const DD = "https://ddragon.leagueoflegends.com";
 const version = (await (await fetch(`${DD}/api/versions.json`)).json())[0];
 const PATCH = version.split(".").slice(0, 2).join(".");
+// Os números juntam todas as partidas desde FROM_PATCH até o patch atual.
+// Troque para o patch novo quando sair uma mudança grande no Vlad (ou passe --from-patch 16.21).
+const FROM_PATCH = arg("from-patch", "16.19");
+const patchOf = (gameVersion) => gameVersion.split(".").slice(0, 2).join(".");
+const patchAtLeast = (p, min) => {
+  const [a, b] = p.split(".").map(Number);
+  const [c, d] = min.split(".").map(Number);
+  return a > c || (a === c && b >= d);
+};
+const PATCH_LABEL = FROM_PATCH === PATCH ? PATCH : `${FROM_PATCH}–${PATCH}`;
 const dd = async (f) => (await fetch(`${DD}/cdn/${version}/data/pt_BR/${f}`)).json();
 const [champs, runes, spells, items] = await Promise.all([dd("champion.json"), dd("runesReforged.json"), dd("summoner.json"), dd("item.json")]);
 const champByKey = Object.fromEntries(Object.values(champs.data).map((c) => [c.key, c.id]));
@@ -124,7 +134,7 @@ const save = (force) => {
 
 function extract(m) {
   const info = m.info;
-  if (info.queueId !== 420 || !info.gameVersion?.startsWith(PATCH + ".")) return 0;
+  if (info.queueId !== 420 || !info.gameVersion || !patchAtLeast(patchOf(info.gameVersion), FROM_PATCH)) return 0;
   const vlad = info.participants.find((p) => p.championId === VLAD_KEY && p.teamPosition === "MIDDLE");
   if (!vlad) return 0;
   const enemy = info.participants.find((p) => p.teamId !== vlad.teamId && p.teamPosition === "MIDDLE");
@@ -139,7 +149,7 @@ function extract(m) {
     items: inv.filter(isLegendary),
     boots: inv.find(isBoots) || null,
     minutes: Math.round(info.gameDuration / 60),
-    patch: PATCH,
+    patch: patchOf(info.gameVersion),
     pid: vlad.participantId,
     page: [...vlad.perks.styles[0].selections, ...vlad.perks.styles[1].selections].map((s) => s.perk),
     shards: [vlad.perks.statPerks.offense, vlad.perks.statPerks.flex, vlad.perks.statPerks.defense],
@@ -242,7 +252,7 @@ async function collectPlatform(platform) {
 function log() {
   const games = Object.values(matches).filter(Boolean).length;
   const min = ((Date.now() - started) / 60_000).toFixed(1);
-  console.log(`[${min} min] ${requests} requisições · ${games} partidas de Vlad mid no patch ${PATCH}`);
+  console.log(`[${min} min] ${requests} requisições · ${games} partidas de Vlad mid (patches ${PATCH_LABEL})`);
 }
 const ticker = setInterval(log, 60_000);
 
@@ -277,8 +287,8 @@ if (ENRICH) {
 clearInterval(ticker);
 
 // ---------- agregação ----------
-// Só o patch atual: partidas de patches anteriores ficam no cache, mas não entram nos números.
-const records = Object.values(matches).filter((r) => r && r.patch === PATCH);
+// Só partidas desde FROM_PATCH: as mais antigas ficam no cache, mas não entram nos números.
+const records = Object.values(matches).filter((r) => r && patchAtLeast(r.patch, FROM_PATCH));
 const top = (list, keyOf, nameOf, limit) => {
   const acc = new Map();
   list.forEach((r) =>
@@ -353,7 +363,8 @@ const summarize = (list) => ({
 const byEnemy = {};
 records.forEach((r) => (byEnemy[r.enemy] ||= []).push(r));
 const out = {
-  patch: PATCH,
+  patch: PATCH_LABEL,
+  fromPatch: FROM_PATCH,
   version,
   generatedAt: new Date().toISOString(),
   platforms: PLATFORMS,
