@@ -112,7 +112,9 @@ const isLegendary = (id) => {
 };
 
 // ---------- coleta ----------
-const matches = readJSON("matches.json", {}); // id -> registro | 0 (sem Vlad mid)
+const matches = readJSON("matches.json", {});
+// Partidas guardadas antes de existir o campo "patch" foram todas coletadas no 16.19.
+for (const r of Object.values(matches)) if (r && !r.patch) r.patch = "16.19"; // id -> registro | 0 (sem Vlad mid)
 const started = Date.now();
 const timeLeft = () => MAX_MS - (Date.now() - started);
 let saveTick = 0;
@@ -137,6 +139,7 @@ function extract(m) {
     items: inv.filter(isLegendary),
     boots: inv.find(isBoots) || null,
     minutes: Math.round(info.gameDuration / 60),
+    patch: PATCH,
     pid: vlad.participantId,
     page: [...vlad.perks.styles[0].selections, ...vlad.perks.styles[1].selections].map((s) => s.perk),
     shards: [vlad.perks.statPerks.offense, vlad.perks.statPerks.flex, vlad.perks.statPerks.defense],
@@ -274,7 +277,8 @@ if (ENRICH) {
 clearInterval(ticker);
 
 // ---------- agregação ----------
-const records = Object.values(matches).filter(Boolean);
+// Só o patch atual: partidas de patches anteriores ficam no cache, mas não entram nos números.
+const records = Object.values(matches).filter((r) => r && r.patch === PATCH);
 const top = (list, keyOf, nameOf, limit) => {
   const acc = new Map();
   list.forEach((r) =>
